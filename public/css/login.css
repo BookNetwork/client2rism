@@ -1,0 +1,58 @@
+body{
+    background-image: url("../images/security1.jpg");
+    background-size: cover;
+    opacity: 0.;
+}
+
+.loginBackground{
+    margin : 40px 0px 0px 500px;
+    background-color:rgb(224, 222, 222) ;
+    padding:30px;
+    border-radius: 20px;
+    border: 2px solid rgb(16, 104, 236);
+}
+
+.loginBackground input{
+    border-radius: 20px;
+    border: 1px solid rgb(7, 70, 165);
+}
+
+.loginBackground button{
+    margin-top:20px;
+    width:260px;
+    border-radius: 20px;
+    border: 1px solid rgb(7, 70, 165);
+}
+
+.img{
+    border-radius: 50%;
+    margin: 10px 0px 10px 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .loginBackground{
+        margin : 0px 0px 0px 0px;
+        background-color:rgb(224, 222, 222) ;
+        padding:30px;
+        border-radius: 20px;
+        border: 2px solid rgb(7, 70, 165);
+    }
+    
+    .loginBackground input{
+        border-radius: 20px;
+        border: 1px solid rgb(7, 70, 165);
+    }
+    
+    .loginBackground button{
+        margin-top:20px;
+        width:100px;
+        border-radius: 20px;
+        border: 1px solid rgb(7, 70, 165);
+    }
+    
+    .img{
+        border-radius: 50%;
+        margin: 10px 0px 10px 0px;
+    }
+}
+ 

@@ -1,0 +1,26 @@
+.contactUsform{
+    width:200px;
+    background-color: rgb(37, 39, 38)
+}
+
+.backgroundContactUs{
+    height:1000px  ;
+    width: 100%;
+    background-color:#FFF;
+    margin: -140px 0px 0px 0px;
+    padding-top: 70px
+}
+
+.supPictureHeader{
+    font-family:Sofia;
+    background-color: transparent;
+    margin: -190px 0px 250px 0px;
+   
+}
+
+@media screen and (max-width: 500px) {
+    .subimage img{
+        height:200px  ;
+        width: 100%;
+    }
+}
