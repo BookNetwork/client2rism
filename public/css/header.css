@@ -81,27 +81,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
 
   .item{
     height:450px;
+
   }
 
   .slider{
     min-width: 100vw;
     width: 100%;
     height:100px;
-    background-size: 100% 100%
+    background-size: 100% 100%;
+ 
   }
 
   .carousel-inner > .item > img {
-    height:450px
+    height:450px;
+    
 }
 
   #google_translate_element{
     margin:0px 0px 0px 88%;
-    background-color: rgb(238, 255, 0);
+    /* background-color: rgb(238, 255, 0); */
     height:0px;
     width:0px;
     background-position:absolute;
   }
 
+
+  .logo{
+    z-index:-1;
+    height:140px;
+    width:150px;
+
+  }
  
 
 
@@ -131,6 +141,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
 
 .item{
   height:300px;
+  }
+
+  .logo{
+    margin: 0px 0px 0px 150px;
+    height:150px;
+    width:200px;
+ 
   }
 
   }

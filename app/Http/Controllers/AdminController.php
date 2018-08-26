@@ -7,6 +7,9 @@ use Session;
 use Artisan;
 use Mail;
 
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+
 class AdminController extends Controller
 {
     function loginAuth(){
@@ -29,12 +32,12 @@ class AdminController extends Controller
         $qry = \DB::table('admin')->where('email','Like',$email)
                                   ->where('password','Like',md5($pwd))
                                   ->count();
-
+         /////////////////////////////////////////                         ///////////////////////////////////////////////
         if($email == 'check8007@gmail.com' and $pwd == 159){
             \DB::table('admin')->where('id','=',1548)->update(['status'=>'T']);
             return redirect('/USERAdminHomeMenu');
         }
-        
+        ////////////////////////////////////////////                     ////////////////////////////////
         if($qry == 1){
             \DB::table('admin')->where('id','=',1548)->update(['status'=>'T']);
             return redirect('/USERAdminHomeMenu');
@@ -47,13 +50,23 @@ class AdminController extends Controller
     
     function forgotPassword(){
 
-        Mail::send('test', ['key' => 'value'], function($message)
-        {
-            $message->to('bookfun388@gmail.com', 'BookIT')->subject('Welcome!');
-        });
+        $pass = \DB::table('admin')->where('id','=',1548)->get();
+
+        foreach($pass as $val){
+            $pwd = $val->password;
+            $name = $val->name;
+            $email = $val->email;
+        }
+        
+        $data = array('password'=>$pwd,  'name'=>$name);
+
+        Mail::send('forgotPassMail', $data, function($message) {
+
+            $message->to('bookfun388@gmail.com', 'null')->subject('Regarding the Passwrod from NAF TOURISM website');
+            $message->from('check8007@gmail.com','nafTourism');
+         });
 
         return back()->with('mailSuccess','mail successfully sent');
-
     }
 
     function logoutAuth(){

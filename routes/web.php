@@ -37,7 +37,7 @@ Route::get('/adminStory', function () {
     return view('admin.adminStory');
 });
 
-Route::get('/sendbasicemail','MailController@basic_email');
+// Route::get('/sendbasicemail','MailController@basic_email');
 
 //----------------------------------------------------------------------------------------------------------
 // Controllers

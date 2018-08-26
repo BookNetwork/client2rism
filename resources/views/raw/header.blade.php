@@ -13,7 +13,6 @@
 <div class="" id="google_translate_element" ></div>
   <div class="backgroundHeader">
     <div class="header">
-      <a href="/" class="logo" stlye="background-color:blue">CompanyLogo</a>
       <div class="header-right" class="navbar" style="margin-top:25px">
         <a href="/">Home</a>
         <a href="gallery">Gallery</a>
@@ -22,7 +21,12 @@
         <a href="contactUs">Contact Us</a>
       </div> 
     </div>
-    
+    <div class="logo" style="z-index:1;margin:-100px 0px 0px 50px" style="background-color:red;">
+    <a href="/" class="logo" stlye="background-color:blue;">
+          <img src="../images/logo.jpeg"  height="140px" width="150px" alt="" style="z-index:1">
+        </a>
+    </div>
+       
 
 </div>
 
