@@ -49,5 +49,7 @@ Route::get('/deletePicStory', 'AdminController@deletePicStory');
 Route::get('/deletePicVehicle', 'AdminController@deletePicVehicle');
 Route::get('/forgotPassword', 'AdminController@forgotPassword');
 Route::post('/resetPass', 'AdminController@resetPass');
+Route::post('/contactus', 'contactusController@contactus');
+
 
 // Route::post('/save_admin', 'staffAdminController@saveAdmin');

@@ -11,7 +11,7 @@
         <link href='https://fonts.googleapis.com/css?family=Aguafina' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../css/wallbutton.css">
+        <!-- <link rel="stylesheet" href="../css/wallbutton.css"> -->
         <title>Naf Tourism</title>
 
     </head>
@@ -23,29 +23,28 @@
         </div>
         <div>
             @yield('bodycontent')
-            <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+            <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>  -->
             <!-- <a href="contactUs"><button  id="myBtn2" title="">Contact US</button></a> -->
         </div>
         <div>
             @include('raw.footer') 
         </div> 
         <!-- <script>
+            window.onscroll = function() {scrollFunction()};
 
-window.onscroll = function() {scrollFunction()};
+                        function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
 
-            function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
         </script> -->
          
     </body>

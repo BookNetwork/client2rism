@@ -1,0 +1,14 @@
+
+.supPictureHeader{
+    font-family:Sofia;
+    background-color: transparent;
+    margin: -190px 0px 0px 0px;
+   
+}
+
+@media screen and (max-width: 500px) {
+    .subimage img{
+        height:200px  ;
+        width: 100%;
+    }
+}

@@ -41,18 +41,48 @@
                     <h3>Contact Form</h3>
                 </div>
                 <div class="panel-body" >
-                    <form action="" method="post">
+
+                @if ($mess = Session::get('contactSuccess'))
+                    <span class="alert alert-success col-md-12">
+                      <strong >{{ $mess }}</strong>
+                    </span>
+                @endif
+
+                @if ($mess = Session::get('contactFaild'))
+                        <span class="alert alert-danger col-md-12">
+                        <strong >{{ $mess }}</strong>
+                        </span>
+                @endif
+
+                    <form action="/contactus" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
                             <div class="form-group">
                                 <label for="email">Name :</label>
-                                <input type="email" class="form-control" id="email">
+                                @if ($errors->has('name'))
+                                    <span class="help-blocks">
+                                        <strong style="color: red;">{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
+                                <input type="text" class="form-control" name="name">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email address :</label>
-                                <input type="email" class="form-control" id="email">
+                                @if ($errors->has('email'))
+                                    <span class="help-blocks">
+                                        <strong style="color: red;">{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                                <input type="text" class="form-control" name="email">
                             </div>
                             <div class="form-group">
                                 <label for="areaText">Message :</label>
-                                <textarea name="" class="form-control" id="" cols="30" rows="5"></textarea>
+                                @if ($errors->has('textArea'))
+                                    <span class="help-blocks">
+                                        <strong style="color: red;">{{ $errors->first('textArea') }}</strong>
+                                    </span>
+                                @endif
+                                <textarea name="textArea" class="form-control" id="" cols="30" rows="5"></textarea>
                             </div>
                         
                             <button type="submit" class="btn btn-primary">Submit</button>

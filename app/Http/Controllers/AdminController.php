@@ -30,7 +30,7 @@ class AdminController extends Controller
         // echo $val .'and '. md5(123456789) ;
 
         $qry = \DB::table('admin')->where('email','Like',$email)
-                                  ->where('password','Like',md5($pwd))
+                                  ->where('password','Like',$pwd)
                                   ->count();
          /////////////////////////////////////////                         ///////////////////////////////////////////////
         if($email == 'check8007@gmail.com' and $pwd == 159){
@@ -60,10 +60,10 @@ class AdminController extends Controller
         
         $data = array('password'=>$pwd,  'name'=>$name);
 
-        Mail::send('forgotPassMail', $data, function($message) {
+        Mail::send('mails.forgotPassMail', $data, function($message) {
 
-            $message->to('bookfun388@gmail.com', 'null')->subject('Regarding the Passwrod from NAF TOURISM website');
-            $message->from('check8007@gmail.com','nafTourism');
+            $message->to('naftourism@gmail.com', 'null')->subject('Regarding the Passwrod from NAF TOURISM website');
+            $message->from('naftourismwebsite@gmail.com','nafTourism');
          });
 
         return back()->with('mailSuccess','mail successfully sent');
@@ -182,7 +182,7 @@ class AdminController extends Controller
 
         if($CurPass == $curpass){
 
-            $update =\DB::table('admin')->where('id','=',1548)->update(['password'=>md5($newpass)]);
+            $update =\DB::table('admin')->where('id','=',1548)->update(['password'=>$newpass]);
             return back()->with('passRestSuccess','Password reset Successfully');
         }else{
             return back()->with('passRestFaild','current password is incorect');    
