@@ -23,15 +23,15 @@
                     <div class="col-md-2 imagesVehicle " style="margin-left:-30px">
                       <div class="coupon">
                           <div class="containerc">
-                              <h3>Company Logo</h3>
+                              <h3>Package 01</h3>
                           </div>
                           <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                           <div class="containerc " style="background-color:white">
-                              <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+                              <h2><b>8 Days & 7 Nights</b></h2> 
                           </div>
                           <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                              <p>Use Promo Code: <span class="promo">BOH232</span></p>
-                              <p class="expire">Expires: Jan 03, 2017</p>
+                          <p>Discover Sri Lanka in 08 Days and 07 nights! The tour dwells into the rich Sri Lankan history, fascinating culture and beautiful scenery.<br/></p>
+
                           </div>
                       </div>
                     </div>
@@ -41,15 +41,15 @@
                     <div class="col-md-2 imagesVehicle ">
                       <div class="coupon">
                         <div class="containerc">
-                              <h3>Company Logo</h3>
+                              <h3>Package 02</h3>
                           </div>
                           <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                           <div class="containerc " style="background-color:white">
-                              <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+                              <h2><b>8 Days & 7 Nights</b></h2> 
                           </div>
                           <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                              <p>Use Promo Code: <span class="promo">BOH232</span></p>
-                              <p class="expire">Expires: Jan 03, 2017</p>
+                          <p>If you want to experience the best of Sri Lanka; all climate and cultural variations within 8 days, this will be the ideal package for you.</p>
+
                         </div>
                       </div>
                     </div>
@@ -58,15 +58,15 @@
                     <div class="col-md-2 imagesVehicle ">
                       <div class="coupon">
                           <div class="containerc">
-                              <h3>Company Logo</h3>
+                              <h3>Package 03</h3>
                           </div>
                           <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                           <div class="containerc " style="background-color:white">
-                              <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+                              <h2><b>5 Days & 4 Nights</b></h2> 
                           </div>
                           <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                              <p>Use Promo Code: <span class="promo">BOH232</span></p>
-                              <p class="expire">Expires: Jan 03, 2017</p>
+                          <p>Explore the finest of Sri Lanka with your friends or family and collect special memories to keep with you for the rest of your life.</p>
+
                           </div>
                       </div>
                     </div>
@@ -75,15 +75,15 @@
                     <div class="col-md-2 imagesVehicle ">
                       <div class="coupon">
                           <div class="containerc">
-                              <h3>Company Logo</h3>
+                              <h3>Package 04</h3>
                           </div>
                           <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                           <div class="containerc " style="background-color:white">
-                              <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+                              <h2><b>9 Days & 8 Nights</b></h2> 
                           </div>
                           <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                              <p>Use Promo Code: <span class="promo">BOH232</span></p>
-                              <p class="expire">Expires: Jan 03, 2017</p>
+                          <p>Spend time with your family to unwind from your hectic life. Our 5 days’ tour package offers you the best for the money you pay.</p>
+
                           </div>
                       </div>
                     </div>

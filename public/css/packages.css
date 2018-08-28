@@ -6,9 +6,25 @@
    
 }
 
+.packageHeader{
+    margin:50px 0px 50px 0px;
+    
+}
+
+.packageHeader .headr{
+    background-color: rgb(28, 93, 146);;
+    color:#FFF;
+    height:250px
+}
+
+.packageHeader .headrBody{
+    background-color: #FFF;
+    height:250px;
+}
+
 @media screen and (max-width: 500px) {
     .subimage img{
-        height:200px  ;
+        height:250px  ;
         width: 100%;
     }
 }

@@ -37,6 +37,38 @@ Route::get('/adminStory', function () {
     return view('admin.adminStory');
 });
 
+//province
+Route::get('/central', function () {
+    return view('ExploreSL.central');
+});
+Route::get('/west', function () {
+    return view('ExploreSL.west');
+});
+Route::get('/east', function () {
+    return view('ExploreSL.east');
+});
+Route::get('/south', function () {
+    return view('ExploreSL.south');
+});
+Route::get('/north', function () {
+    return view('ExploreSL.north');
+});
+
+//packages
+Route::get('/one', function () {
+    return view('packages.one');
+});
+Route::get('/two', function () {
+    return view('packages.two');
+});
+Route::get('/three', function () {
+    return view('packages.three');
+});
+Route::get('/four', function () {
+    return view('packages.four');
+});
+
+
 // Route::get('/sendbasicemail','MailController@basic_email');
 
 //----------------------------------------------------------------------------------------------------------
@@ -50,6 +82,13 @@ Route::get('/deletePicVehicle', 'AdminController@deletePicVehicle');
 Route::get('/forgotPassword', 'AdminController@forgotPassword');
 Route::post('/resetPass', 'AdminController@resetPass');
 Route::post('/contactus', 'contactusController@contactus');
+Route::post('/requestMoreDetails1', 'packagesController@packageContactPackage1');
+Route::post('/requestMoreDetails2', 'packagesController@packageContactPackage2');
+Route::post('/requestMoreDetails3', 'packagesController@packageContactPackage3');
+Route::post('/requestMoreDetails4', 'packagesController@packageContactPackage4');
+
+
+
 
 
 // Route::post('/save_admin', 'staffAdminController@saveAdmin');

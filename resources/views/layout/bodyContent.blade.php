@@ -1,6 +1,7 @@
 @extends('welcome')
 @section('bodycontent')
 <link rel="stylesheet" href="css/bodyContent.css">
+<link rel="stylesheet" href="css/exploreSL.css">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   
   <!-- Indicators -->
@@ -75,71 +76,67 @@
                     <div class="col-md-1">
                         
                         </div>
-                    <a href="">
+                    <a href="/one">
                         <div class="col-md-2 imagesVehicle " style="margin-left:-30px">
                         <div class="coupon">
                             <div class="containerc">
-                                <h3>Company Logo</h3>
+                                <h3>Package 01</h3>
                             </div>
                             <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                             <div class="containerc " style="background-color:white">
-                                <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+                                <h2><b>8 Days & 7 Nights</b></h2> 
                             </div>
                             <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                                <p>Use Promo Code: <span class="promo">BOH232</span></p>
-                                <p class="expire">Expires: Jan 03, 2017</p>
+                                <p>Discover Sri Lanka in 08 Days and 07 nights! The tour dwells into the rich Sri Lankan history, fascinating culture and beautiful scenery.<br/></p>
                             </div>
                         </div>
                         </div>
                     </a> 
                     
-                    <a href="">
+                    <a href="/two">
                         <div class="col-md-2 imagesVehicle ">
                         <div class="coupon">
                             <div class="containerc">
-                                <h3>Company Logo</h3>
+                                <h3>Package 02</h3>
                             </div>
                             <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                             <div class="containerc " style="background-color:white">
-                                <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+                                <h2><b>8 Days & 7 Nights</b></h2> 
                             </div>
                             <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                                <p>Use Promo Code: <span class="promo">BOH232</span></p>
-                                <p class="expire">Expires: Jan 03, 2017</p>
+                                <p>If you want to experience the best of Sri Lanka; all climate and cultural variations within 8 days, this will be the ideal package for you.</p>
                             </div>
                         </div>
                         </div>
                     </a> 
-                    <a href="">
+                    <a href="/three">
                         <div class="col-md-2 imagesVehicle ">
                         <div class="coupon">
                             <div class="containerc">
-                                <h3>Company Logo</h3>
+                                <h3>Package 03</h3>
                             </div>
                             <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                             <div class="containerc " style="background-color:white">
-                                <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+                                <h2><b>5 Days & 4 Nights</b></h2> 
                             </div>
                             <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                                <p>Use Promo Code: <span class="promo">BOH232</span></p>
-                                <p class="expire">Expires: Jan 03, 2017</p>
+                                <p>Explore the finest of Sri Lanka with your friends or family and collect special memories to keep with you for the rest of your life.</p>
                             </div>
                         </div>
                         </div>
                     </a> 
-                    <a href="">
+                    <a href="/four">
                         <div class="col-md-2 imagesVehicle ">
                         <div class="coupon">
                             <div class="containerc">
-                                <h3>Company Logo</h3>
+                                <h3>Package 04</h3>
                             </div>
                             <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                             <div class="containerc " style="background-color:white">
-                                <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+                                <h2><b>9 Days & 8 Nights</b></h2> 
                             </div>
                             <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                                <p>Use Promo Code: <span class="promo">BOH232</span></p>
-                                <p class="expire">Expires: Jan 03, 2017</p>
+                                <p>Spend time with your family to unwind from your hectic life. Our 5 days’ tour package offers you the best for the money you pay.</p>
                             </div>
                         </div>
                         </div>
@@ -156,94 +153,63 @@
                         <h1>Explore Sri Lanka</h1>    
                     </center>
               </div> 
+            <div class="col-md-12" style="margin-top:50px;">
+
+                <div class="col-md-3"></div>
+                
+                <a href="/central">
+                        <div class="container col-md-2">
+                        <img src="../images/province/central.jpg" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text"> <b> Central Province </b></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/west">
+                    <div class="container col-md-2">
+                        <img src="../images/province/west.jpg" alt="Avatar" class="image2" style="width:100%">
+                        <div class="middle">
+                            <div class="text"> <b> West Province </b></div>
+                        </div>
+                    </div>
+                </a>
+                
+
+             </div>
+
+             <div class="col-md-12" style="margin-bottom:50px;">
+                <div class="col-md-1"></div>
+                <a href="/east">
+                    <div class="container col-md-2">
+                        <img src="../images/province/east.jpg" alt="Avatar" class="image3" style="width:100%">
+                        <div class="middle">
+                            <div class="text"> <b> East Province </b></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/south">
+                    <div class="container col-md-2">
+                        <img src="../images/province/south.jpg" alt="Avatar" class="image4" style="width:100%">
+                        <div class="middle">
+                            <div class="text"> <b> South Province </b></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/north">
+                    <div class="container col-md-2">
+                        <img src="../images/province/north.jpg" alt="Avatar" class="image5" style="width:100%">
+                        <div class="middle">
+                            <div class="text"> <b> North Province </b></div>
+                        </div>
+                    </div>
+                </a>
+             </div>
 
               <div class="col-md-12 ahover">
                     <!-- <div class="col-md-1">
 
                     </div> -->
-                   <a href="/" > 
-                       <div class="imageExplore col-md-2  ">
-                        <div class="coupon">
-                            <div class="containerc">
-                                <h3>Central Province</h3>
-                            </div>
-                            <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
-                            <div class="containerc " style="background-color:;font-family:Microsoft">
-                                <b>The Central Province is one of the nine provinces of Sri Lanka,
-                                     the first level administrative division of the country. The Central Province is primarily in the central mountainous terrain of Sri Lanka.
-                                     It is the 6th largest province by area and is home to 2.5 million people.</b> 
-                            </div>
-                         
-                          </div>
-                        </div>
-                    </a>
-                    <a href="/">
-                        <div class="col-md-2 imageExplore ">
-                        <div class="coupon">
-                            <div class="containerc">
-                                <h3>North Province</h3>
-                            </div>
-                            <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
-                            <div class="containerc " style="background-color:;font-family:Microsoft">
-                                <b>The Northern Province is one of the nine provinces of Sri Lanka, the first level 
-                                    administrative division of the country. The provinces have existed since 
-                                    the 19th century but did not have any legal status until 1987 when the 13th Amendment to the Constitution of Sri Lanka established provincial councils.</b>
-                            </div>
-                          
-                        </div>
-                        </div>
-                    </a>
-                    <a href="/" >
-                        <div class="col-md-2 imageExplore ">
-                        <div class="coupon">
-                            <div class="containerc">
-                                <h3>West Province</h3>
-                            </div>
-                            <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
-                            <div class="containerc " style="background-color:;font-family:Microsoft">
-                                <b>The Western Province is one of the nine provinces of Sri Lanka, the first
-                                     level administrative division of the country. The provinces have existed since the 19th century
-                                      but did not have
-                                     any legal status until 1987 when the 13th Amendment to the Constitution of Sri Lanka established provincial councils.</b> 
-                            </div>
-                         
-                        </div>
-                        </div>
-                    </a>
-                    <a href="/">
-                        <div class="col-md-2 imageExplore ">
-                        <div class="coupon">
-                            <div class="containerc">
-                                <h3>East Province</h3>
-                            </div>
-                            <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
-                            <div class="containerc " style="background-color:;font-family:Microsoft">
-                                <b>The Eastern Province is one of the nine provinces of Sri Lanka, the first level 
-                                    administrative division of the country. The provinces have existed
-                                     since the 19th century but did not have any legal status until 1987 when the 13th Amendment to the Constitution 
-                                     of Sri Lanka established provincial councils.</b>
-                            </div>
-                      
-                        </div>
-                        </div>
-                    </a>
-                    <a href="/">
-                        <div class="col-md-2 imageExplore ">
-                        <div class="coupon">
-                            <div class="containerc">
-                                <h3>South Province</h3>
-                            </div>
-                            <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
-                            <div class="containerc " style="background-color:;font-family:Microsoft">
-                                <b>The Southern Province of Sri Lanka is one of the nine 
-                                    provinces of Sri Lanka, the first level administrative division of the country. The 
-                                    provinces have existed since the 19th century but did not 
-                                    have any legal status until 1987 when the 13th Amendment to the Constitution of Sri Lanka established provincial councils. </b>
-                            </div>
-                    
-                        </div>
-                        </div>
-                    </a>
+                  
                    
               </div>
 
@@ -261,24 +227,31 @@
                 </div> 
 
                 <?php 
-                    $qry = \DB::table('storygallery')->limit(12)->get();  
+                    $qry = \DB::table('storygallery')->limit(10)->get();  
                 ?>
 
      <a href="/gallery"><div class="row col-md-12" style="">
         @foreach($qry as $val)
-            <div class="col col-md-2" style="margin:0px 0px px 0px">
-                <img src="images/story/{{$val->imageName}}"  height="200px" width="220px">
+            <div class="col col-md-2" style="margin:0px 20px 0px 15px">
+                <img src="images/story/{{$val->imageName}}"  height="250px" width="250px">
             </div>
         @endforeach
     </div>  </a>
 
             </div>
 
-        <div class="transperant">
+        <div class="transperant" class="col-md-12" >
         
-                <iframe frameborder="1" width="420" height="345" src="//www.youtube.com/embed/C8kSrkz8Hz8"></iframe> 
+            <div style="margin:150px 0px 50px 0px;background-color:rgb(118, 162, 197);padding:40px 0px 40px 40px" class="col-md-6">
+                <iframe frameborder="0" width="550" height="345" src="//www.youtube.com/embed/C8kSrkz8Hz8"></iframe>
+            </div>
+
+            <div style="margin:50px 0px 0px 0px;background-color:red;margin:250px 0px 50px 0px;background-color:rgb(118, 162, 197)" class="col-md-6">
+                <h1> <b> ABOUT SRI LANKA </b></h1>
+
+                <p style="">Sri Lanka (formerly Ceylon) is an island nation south of India in the Indian Ocean. Its diverse landscapes range from rainforest and arid plains to highlands and sandy beaches. It’s famed for its ancient Buddhist ruins, including the 5th-century citadel Sigiriya, with its palace and frescoes. The city of Anuradhapura, Sri Lanka's ancient capital, has many ruins dating back more than 2,000 years.</p>
+            </div>
+
         </div>
 
-
-      
 @endsection
