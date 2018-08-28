@@ -17,7 +17,7 @@
         <a href="/">Home</a>
         <a href="gallery">Gallery</a>
         <a href="packages">Packages</a>
-        <a href="#about">About</a>
+        <!-- <a href="#about">About</a> -->
         <a href="contactUs">Contact Us</a>
       </div> 
     </div>

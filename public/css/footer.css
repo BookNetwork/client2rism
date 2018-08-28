@@ -10,7 +10,6 @@
 
 .footerHeader{
     background-color: rgb(15, 77, 128);
-    /* background-image: url("../images/footer.png"); */
     background-size: cover;
     color: white;
     height : 320px ;
@@ -104,5 +103,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
     .social{
         margin:70px 0px 0px 0px;
     }
+
+    
+.footer {
+    height:0px;
+    color:transparent;
+    background-color: transparent;
+}
+
+.footerHeader{
+    background-color: transparent;
+    background-size: cover;
+    color: transparent;
+    height : 0px ;
+    overflow: auto;
+}
+
     
 }

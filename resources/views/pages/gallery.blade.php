@@ -15,26 +15,27 @@
 
 <div style="" class="backgroundContactUs">
 
-<center>
-    <div style="padding-bottom:30px">
-        <a href="/gallery">Story Images</a> | <a href="/galleryVehicle">Vehicle Images</a>
-    </div>
-</center>
+    <center>
+        <div style="padding-bottom:30px">
+            <a href="/gallery">Story Images</a> | <a href="/galleryVehicle">Vehicle Images</a>
+        </div>
+    </center>
 
     <?php 
         $qry = \DB::table('storygallery')->get();  
     ?>
 
-     <div class="row col-md-12" style="">
+
+    <div class="row col-md-12" style="" >
         @foreach($qry as $val)
-            <div class="col col-md-2" style="margin:0px 0px 15px 0px">
-                <img src="images/story/{{$val->imageName}}"  height="200px" width="220px">
+            <div class="col col-md-3" style="margin:0px 0px 15px 0px">
+                <img src="images/story/{{$val->imageName}}"  height="200px" width="300px">
             </div>
         @endforeach
     </div>   
-
     
 
+    
 </div>
 
 @endsection

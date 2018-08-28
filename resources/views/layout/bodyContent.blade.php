@@ -206,11 +206,7 @@
              </div>
 
               <div class="col-md-12 ahover">
-                    <!-- <div class="col-md-1">
-
-                    </div> -->
-                  
-                   
+    
               </div>
 
             </div>
@@ -227,13 +223,13 @@
                 </div> 
 
                 <?php 
-                    $qry = \DB::table('storygallery')->limit(10)->get();  
+                    $qry = \DB::table('storygallery')->orderBy('id','desc')->limit(8)->get();  
                 ?>
 
      <a href="/gallery"><div class="row col-md-12" style="">
         @foreach($qry as $val)
-            <div class="col col-md-2" style="margin:0px 20px 0px 15px">
-                <img src="images/story/{{$val->imageName}}"  height="250px" width="250px">
+            <div class="col-md-3" style="margin:0px 0px 0px 0px">
+                <img src="images/story/{{$val->imageName}}"  height="250px" width="320px">
             </div>
         @endforeach
     </div>  </a>
@@ -243,7 +239,7 @@
         <div class="transperant" class="col-md-12" >
         
             <div style="margin:150px 0px 50px 0px;background-color:rgb(118, 162, 197);padding:40px 0px 40px 40px" class="col-md-6">
-                <iframe frameborder="0" width="550" height="345" src="//www.youtube.com/embed/C8kSrkz8Hz8"></iframe>
+            <iframe width="560" height="315"  src="https://www.youtube.com/embed/zpZI2oGPsio" frameborder="0" allow="autoplay; encrypted-media" class="video" allowfullscreen></iframe>
             </div>
 
             <div style="margin:50px 0px 0px 0px;background-color:red;margin:250px 0px 50px 0px;background-color:rgb(118, 162, 197)" class="col-md-6">

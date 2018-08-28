@@ -90,9 +90,9 @@
                 </div>
             </div>
         
-    </div> 
+ </div> 
 
-            <!-- <div class="col-md-12" id="googleMap" style="width:100%;height:500px;"></div>
+    <!--            <div class="col-md-12" id="googleMap" style="width:100%;height:500px;"></div>
     
 
     <script>
@@ -103,9 +103,9 @@
         };
         var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
         }
-    </script> -->
+    </script>
 
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJwkGxDCe2s1NwEX9O6YdnI9jH3kTf9Uw&callback=myMap"></script> -->
-</div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJwkGxDCe2s1NwEX9O6YdnI9jH3kTf9Uw&callback=myMap"></script>
+</div> -->
 
 @endsection

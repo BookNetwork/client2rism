@@ -20,6 +20,12 @@
     
 }
 
+.containerc {
+    padding: 2px 10px;
+    background-color: #ffffff;
+    margin:0px 0px 0px 0px;
+}
+
 .imageStory{
     height:200px;
     width:200px
@@ -71,22 +77,71 @@
 }
 
 
-.containerc {
-    padding: 2px 10px;
-    background-color: #ffffff;
-    margin:0px 0px 0px 0px;
+@media screen and (max-width: 500px) {
+    
+    
+    .imageStory{
+        height:100px;
+        width:200px
+    }
+    
+    .imagesVehicle{
+        border: 3px solid rgb(28, 93, 146);
+        border-bottom-right-radius: 50px; 
+        margin:50px 0px 0px 0px;
+        width:250px
+        
+    }
+    
+    .imageExplore{
+        border-bottom-right-radius: 50px; 
+        margin:0px 0px 0px 0px;
+       
+     
+    }
+
+    .imagesVehicle:hover{
+        box-shadow: 5px 10px 8px rgb(28, 93, 146);
+        border: 3px solid rgb(28, 93, 146);
+        margin:0px 0px 0px 0px;
+    }
+    
+    
+    
+    .imagesVehicle img{
+        height:150px;
+        width:250px
+    }
+
+    .containerc {
+        padding: 2px 10px;
+        background-color: #ffffff;
+        margin:0px 0px 0px 0px;
+    }
+    
+    .promo {
+        background: #ccc;
+        padding: 3px;
+    }
+    
+    .expire {
+        color: red;
+    }
+    
+    .exploreSL{
+        margin:0px 0px 0px 0px;
+    }
+
+    .video{
+        height:200px;
+        width:300px;
+    }
+    .aboutSL{
+        margin:0px 0px 0px 0px;
+        
+    }
 }
 
-.promo {
-    background: #ccc;
-    padding: 3px;
-}
 
-.expire {
-    color: red;
-}
 
-.exploreSL{
-    margin:30px 0px 30px 0px;
-}
 
