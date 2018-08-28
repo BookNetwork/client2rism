@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/footer.css">
 
 
-<div class="col-md-12 footerHeader ">
+<div class="col-md-12 footerHeader " style="font-family:Microsoft JhengHei UI">
   <div class="col-md-12">
     <div class="col-md-3 footerSmallBox">
          <h1 style="font-family:Sofia;">About </h1>
@@ -16,7 +16,7 @@
             <li><a href="contactUs">Contact Us</a></li>
           </ul>
     </div>  
-    <div class="col-md-3 footerSmallBox">
+    <div class="col-md-3 footerSmallBox" style="font-family:Microsoft JhengHei UI">
         <h1 style="font-family:Sofia;">Contact us</h1>
                 <br/>
                 <b>Naf Tourism Travels & Tours</b><br />

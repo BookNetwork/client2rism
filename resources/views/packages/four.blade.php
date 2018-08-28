@@ -124,23 +124,33 @@
 
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><td></td></tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr>  
+            <tr><th>Package Includes</th></tr>
+            <tr><td>08-Days / 07- Nights, accommodation as per itinerary</td></tr>
+            <tr><td>Complimentary Mineral water on reaching Sri Lanka At the Airport [Once]</td></tr>
+            <tr><td>Assistance at the airport and transport for all ,08,Days,</td></tr>
+            <tr><td>All air-conditioned [A/C] Rooms</td></tr>
+            <tr><td>Service of Multilingual speaking chauffeur guide ,Informative, friendly and professional local guide, For more personalized experience</td></tr> 
+            <tr><td>Paging & Welcome Complementary</td></tr> 
+            <tr><td>All taxes, fuel surcharges and service fees included</td></tr>
+            <tr><td>Local insurance for the vehicle</td></tr>
+            <tr><td>Passenger Insurance</td></tr>
         </table>
     </div>
     <!--  -->
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><th></th></tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr> 
+            <tr><th>Package Excludes</th></tr>
+            <tr><td>Anything Extra meals other than the travel program</td></tr>
+            <tr><td>Personal Expenses</td></tr>
+            <tr><td>Lunch & Dinner</td></tr>
+            <tr><td>Camera and Video Charges</td></tr>
+            <tr><td>Entrance and Ticket fees</td></tr> 
+            <tr><td>Games Tickets</td></tr>
+            <tr><td>Use of vehicle other than the specified itinerary</td></tr>
+            <tr><td>International flight tickets</td></tr>
+            <tr><td>Any visa or inoculation fees</td></tr>
+            <tr><td>Tips for the guide and driver</td></tr>  
+            <tr><td>Massage & Spa Available in All Hotels [Not Free]</td></tr>  
         </table>
     </div>
     <!--  -->
