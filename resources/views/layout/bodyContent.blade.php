@@ -169,7 +169,7 @@
                     <div class="container col-md-2">
                         <img src="../images/province/west.jpg" alt="Avatar" class="image2" style="width:100%">
                         <div class="middle">
-                            <div class="text"> <b> West Province </b></div>
+                            <div class="text"> <b> Western Province </b></div>
                         </div>
                     </div>
                 </a>
@@ -183,7 +183,7 @@
                     <div class="container col-md-2">
                         <img src="../images/province/east.jpg" alt="Avatar" class="image3" style="width:100%">
                         <div class="middle">
-                            <div class="text"> <b> East Province </b></div>
+                            <div class="text"> <b> Eastern Province </b></div>
                         </div>
                     </div>
                 </a>
@@ -191,7 +191,7 @@
                     <div class="container col-md-2">
                         <img src="../images/province/south.jpg" alt="Avatar" class="image4" style="width:100%">
                         <div class="middle">
-                            <div class="text"> <b> South Province </b></div>
+                            <div class="text"> <b> Southern Province </b></div>
                         </div>
                     </div>
                 </a>
@@ -199,7 +199,7 @@
                     <div class="container col-md-2">
                         <img src="../images/province/north.jpg" alt="Avatar" class="image5" style="width:100%">
                         <div class="middle">
-                            <div class="text"> <b> North Province </b></div>
+                            <div class="text"> <b> Northern Province </b></div>
                         </div>
                     </div>
                 </a>

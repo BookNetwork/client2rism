@@ -3,9 +3,7 @@
 
 <div class="col-md-12 footerHeader " style="font-family:Microsoft JhengHei UI">
   <div class="col-md-12">
-    <div class="col-md-3 footerSmallBox">
-         <h1 style="font-family:Sofia;">About </h1>
-    </div>
+    
     <div class="col-md-3 footerSmallBox">
          <h1 style="font-family:Sofia;">Useful links</h1>
          <ul>
@@ -28,6 +26,9 @@
                 <b>URL:</b>www.naftourisum.com<br />
                 <br />
     </div> 
+    <div class="col-md-3 footerSmallBox">
+         <h1 style="font-family:Sofia;"> </h1>
+    </div>
     <div class="col-md-1 social" style=" " media="">
          <a href="https://www.facebook.com/Nafftourismcom/"  target="_blank" class="fa fa-facebook"></a>
         <a href="#" target="_blank" class="fa fa-twitter"></a>

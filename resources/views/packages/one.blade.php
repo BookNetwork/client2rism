@@ -1,5 +1,6 @@
 @extends('welcome')
 @section('bodycontent')
+@include('packages.packagesDetails')
 
     <link rel="stylesheet" href="css/packages.css">
                     
@@ -159,7 +160,7 @@
 <!--  -->
 <div class="col-md-12">
     <table class="table table-striped">
-        <tr><th><h3><b>Entrance fees during guided sightseeing:</b></h3><div class="alert alert-info">Not included in the above tour cost. The Client can be paid direct to the site. Rates are based on per person, Group; Rates may differ due to currency conversion & not Fixed Rates.</div></th></tr>
+        <tr><th><h3><b>Entrance fees during guided sightseeing:</b></h3><div class="alert alert-info">Rates are based on per person, Group; Rates may differ due to currency conversion & not Fixed Rates.</div></th></tr>
         {{fee()}}
     </table>
 </div>
@@ -167,7 +168,7 @@
 
 <div class="col-md-12">
     <table class="table table-striped">
-        <tr><th><h3><b>HIGHLIGHTS & ACTIVITIES DAY TO DAY ITINERARY</b></h3></th></tr>
+        <tr><th><marquee><h3><b>HIGHLIGHTS & ACTIVITIES DAY TO DAY ITINERARY</b></h3></marquee></th></tr>
         <tr><td><b>Day 1 AIRPORT / NEGOMBO / CULTURAL TRIANGLE</b><br/>
                 <p>Arrival, welcomed & assisted at the airport then leave to Sigiriya. En-route visit Negombo. The population in Negombo is largely Roman Catholic by faith, with large structured churches down almost every street. The sea & the catamarans are the backdrop to the Negombo scenery.
                  At P.M. pay a visit to Sigiriya located in the north-central part of Sri Lanka which preserves the architectural tradition of the country. The town is famous for its rock fortress, gardens and sanctuary. Sigiriya has spectacular importance in Sri Lanka. An ancient palace complex, erected during the reign of King Kashyapa, which has been declared by UNESCO a world heritage site. Return to the hotel for an overnight stay.</p>

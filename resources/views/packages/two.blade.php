@@ -140,14 +140,14 @@
     <div class="col-md-6">
         <table class="table table-striped">
             <tr><th><h3><b>Brief Itinerary</b></h3></th></tr>
-            <tr><td>Day 1 AIRPORT / NEGOMBO / CULTURAL TRIANGLE</td></tr>
-            <tr><td>Day 2 POLONNARUWA / MEDIRIGIRIYA</td></tr>
-            <tr><td>Day 3 ANURADHAPURA / MIHINTALE</td></tr>
-            <tr><td>Day 4 DAMBULLA / NALANDA GEDIGE/ MATALE / KANDY</td></tr>
-            <tr><td>Day 5 KANDY / PERADENIYA / NUWARA ELIYA</td></tr>
-            <tr><td>Day 6 NUWARA ELIYA / ELLA / BUDURUWAGALA / YALA</td></tr> 
-            <tr><td>Day 7 WELIGAMA / GALLE / COLOMBO</td></tr> 
-            <tr><td>Day 8 COLOMBO / AIRPORT</td></tr>
+            <tr><td>Day 1 Upon arrival at the Bandaranaike International Airport, Colombo, Sri Lanka. Proceed to the hotel in Colombo</td></tr>
+            <tr><td>Day 2 After Breakfast leaves to Habarana</td></tr>
+            <tr><td>Day 3 After Breakfast leaves to Kandy</td></tr>
+            <tr><td>Day 4 After Breakfast leaves to Nuwara Eliya</td></tr>
+            <tr><td>Day 5 After Breakfast leaves to Yala</td></tr>
+            <tr><td>Day 6 After Breakfast leaves to Kaluthara /Bentota</td></tr> 
+            <tr><td>Day 7 Tour continues same Bentota/Beruwella/Ahungalla/ Kaluthara</td></tr> 
+            <tr><td>Day 8 After Breakfast at the Hotel proceeds to Airport for Departure</td></tr>
         </table>
     </div>
     <!--  -->
@@ -160,7 +160,7 @@
     <!--  -->
     <div class="col-md-12">
         <table class="table table-striped">
-            <tr><th><h3><b>Entrance fees during guided sightseeing:</b></h3><div class="alert alert-info">Not included in the above tour cost. The Client can be paid direct to the site. Rates are based on per person, Group; Rates may differ due to currency conversion & not Fixed Rates.</div></th></tr>
+            <tr><th><h3><b>Entrance fees during guided sightseeing:</b></h3><div class="alert alert-info">Rates are based on per person, Group; Rates may differ due to currency conversion & not Fixed Rates.</div></th></tr>
             {{fee()}}
         </table>
     </div>
@@ -168,42 +168,141 @@
    
     <div class="col-md-12">
         <table class="table table-striped">
-            <tr><th><h3><b>HIGHLIGHTS & ACTIVITIES DAY TO DAY ITINERARY</b></h3></th></tr>
-            <tr><td><b>Day 1 AIRPORT / NEGOMBO / CULTURAL TRIANGLE</b><br/>
-                    <p>Arrival, welcomed & assisted at the airport then leave to Sigiriya. En-route visit Negombo. The population in Negombo is largely Roman Catholic by faith, with large structured churches down almost every street. The sea & the catamarans are the backdrop to the Negombo scenery.
-                     At P.M. pay a visit to Sigiriya located in the north-central part of Sri Lanka which preserves the architectural tradition of the country. The town is famous for its rock fortress, gardens and sanctuary. Sigiriya has spectacular importance in Sri Lanka. An ancient palace complex, erected during the reign of King Kashyapa, which has been declared by UNESCO a world heritage site. Return to the hotel for an overnight stay.</p>
+            <tr><th><marquee><h3><b>HIGHLIGHTS & ACTIVITIES DAY TO DAY ITINERARY</b></h3></marquee></th></tr>
+            <tr><td><h4>DAY 1</h4><br/>
+                    <p>Upon arriving in Sri Lanka, transfer to the hotel booked. Loosen up and relax after your flight, preparing yourself for the adventure ahead. Transport in air-conditioned vehicle to the hotel in Colombo.
+                        Make it at the hotel and check-in with welcome drink and refreshing towels.
+                        Colombo, the commercial capital of Sri Lanka is just 34 km from the international airport. It takes an interesting blend of the Dutch and British architecture over 600 years in utter concord with the modernistic architecture. The Dutch Colonial style of architecture is very much in evidence in the Colombo Fort and the Pettah areas.
+                        The President’s House located at the Fort, the Galle Face Green the largest open air stretch in the city bordering the fort along the south, Galle Face Hotel the oldest hotel of the country is locations that one should not overlook.
+                        The Pettah area, with many crossing roads remains the busiest bazaar in the city.
+                        Amidst the busy commercial surroundings, Colombo is not excluded from the spiritual influence. Many Buddhist Temples, Islamic Mosques, The Dutch Reform and Anglican Churches are not uncommon sites.</p>
+                        <p>
+                        <b>Colombo:</b><br>
+                        Museum<br>
+                        Art Collection<br>
+                        Parks<br>
+                        Town Hall<br>
+                        Nelum Pokuna<br>
+                        Beach Area (Coastal Belt of Colombo)<br>
+                        Shopping centers, outlet malls and restaurants nearby<br>
+                        Zoo [optional]<br>
+                        The temple could be visited if guest like only<br>
+                        <br>
+                        Overnight stay in Colombo
+                        </p>
                 </td></tr>
             <tr><td>
-                <b>Day 2 POLONNARUWA / MEDIRIGIRIYA</b>
-                <p>After breakfast get ready for an excursion to Polonnaruwa, the second ancient capital city for three centuries, it is a site which cannot be missed in Sri Lanka with many well preserved ruins of palaces and monasteries . In the late afternoon visit Medirigiriya. The Medirigiriya Vatadage is on a high circular stage. It has three concentric circles of pillars (with the same center) and a decorated stone wall about three and a half feet high. Return to the hotel for an overnight stay with dinner.</p>
+                <h4>DAY 2</h4>
+                <b>Colombo – Habarana <br>
+                    Distance 195 Km <br>
+                    Duration 4 hrs (Approximately)</b>
+                    <p>Dambulla / Sigiriya / Habarana:</p>
+                <p>Proceed to Sigiriya and climb the Rock Fortress of Sigiriya, built 5th century A.D, see the Water Garden, Bolder Garden, Mural Paintings, The Mirror Wall, The Lion’s Paws and the Royal Swimming Pool on top. Dambulla:
+                    <br>
+                    Many centuries had remained the habitation of forest dwelling monks who had minimum contacts with the public. It is today famous for the rock temple of infinite Buddha’s. The rock ceiling is one great sweep of colorful paintings of Lord Buddha and his previous incarnations dating back to the first century BC.
+                    <br>
+                    The main shrine at Dambulla, known as the Rangiri Dambulla Viharay a, or the golden cave temple of Dambulla, has been quoted in a routine of spiritual and historical texts. The images in a number of postures are those of the Buddha, the bodhisattvas, gods and goddesses, monks, disciples and kings. Encompassing 25,000 square feet, the area of paintings in the shrine is the largest in South Asia and the oldest in the universe.
+                    <br>
+                    The Rangiri Dambulla Viharaya has five temples each having several images of Lord Buddha, deities and the Kings who had constructed the temples from time to time. In one of the cave temples is a fascinating outcome formed due to the flaw in the shaping of the stone, where water seeps into the cave through a tiny space created on the rock ceiling. This water is gathered up into a bowl and with time it has acquired sanctity, religious and ritual interest and now being used for various spiritual functions.</p>
+                    <p><b>Dambulla / Sigiriya / Habarana:</b>
+
+                        Royal Rock Temple <br>
+                        Sigiriya Rock fortress <br>
+                        Dambulla rock cave temple <br>
+                        The Buddhists Museum <br>
+                        Icon of the Buddha and two Dagoba <br>
+                        Village Tour <br>
+                        Bulart Cart Rides <br>
+                        Elephant rides <br>
+                        Matale Spice Garden <br>
+                        Alu Vihara Temple <br>
+                        Take an ancient city tour in Sigiriya <br>
+                        
+
+                        Overnight stay in Habarana</p>
             </td></tr>
             <tr><td>
-                <b>Day 3 ANURADHAPURA / MIHINTALE</b>
-                <p>After breakfast excursion to Anuradhapura & visit the ruins of the first capital founded in the 05th century BC. It is known to have the largest number of ancient monuments of a great civilization. World Heritage city Anuradhapura, in picturesque ruins, was once a major center of SriLankan civilization. In the afternoon visit Mihintale & Later on return back to your hotel for overnight stay.</p>
+                <h4>DAY 3</h4>
+                <b>Habarana– Kandy <br> 
+                    Distance 98 Km <br>
+                    Duration 2 hrs 30 mins (Approximately)</b>
+                <p>In the evening visit the Temple of the Tooth Relic and thereafter see a cultural appearance. Dinner and The beautiful hill capital, the ancient kingdom of Sri Lanka. Leaves to the most beautiful ancient city of Sri Lanka and its noted for its tourist attractions that includes the wildlife sanctuary, historical heritage sites, unparalleled scenic vistas, botanical gardens and tons more…. Kandy is also prominent for its pilgrimage places of the Buddha, those are religiously and historically most important and which draws in tourists who loves pilgrimage places all over the world.
+                        <br>
+                    Continue to Pinnewala:</b>
+                        <br>
+                    Enroot visit Pinnewala and Elephant Orphanage. These 24 acres, large elephant habitat are believed to have the largest herd of elephants in captivity in the world. The Orphanage was established to feed, nurse and house young elephants abandoned by their female parents, displaced from their natural environment by development projects. Most of the orphans cannot be inserted back into the wild, as other elephant family groups will not take them. They survive a full lifetime with their human parents, and many find safe foster homes in zoos around the world. It is more interesting to move to an Orphanage at feeding or bathing time.</p>
+                    <p><b>Elephant Orphanage at Pinnewala</b><br/>
+
+                        Royal Botanical Garden <br>
+                        Visit the Temple of the Tooth relic<br>
+                        Spice Garden (in Kandy road)<br>
+                        Cultural Show<br>
+                        Upper Lake Drive<br>
+                        Kandy City Tour<br>
+                        Kandy Temples could be visited if guest likes<br>
+                        Shopping Gem Museum, Batik Factory, Wood Carving, (optional)</p>
             </td></tr>
             <tr><td>
-                <b>Day 4 DAMBULLA / NALANDA GEDIGE/ MATALE / KANDY</b>
-                <p>After breakfast leave for Kandy En-route visit Dambulla. In Sri Lankan history, the Dambulla cave complex dates back to 3rd and 2nd centuries B.C. Even before the making of the complex it was well established as one of the largest monasteries in Sri Lanka. The Dambulla caves have been declared a World Heritage Site by UNESCO. The area is also known for bird watching, next visit Nalanda Gedige the Abu Simbel of Sri Lanka.
-                 Nalanda Gedige is one out of a number of remarkable archaeological sites in Sri Lanka, on the way to Kandy visit a spice garden and a batik factory in Matale. In the evening arrive at the hotel in Kandy. Also known as the center of traditional arts in Sri Lanka visit the temple of the sacred tooth relic of Buddha. Return to the hotel for an overnight stay</p>
+                <h4>DAY 4</h4>
+                <b>Kandy- Nuwara Eliya <br>
+                    Distance 78 Km <br>
+                    Duration 2 hrs (Approximately)</b>
+                <p>The prime hill resort of Sri Lanka. It is still very much like an old English town with styled Bungalows and buildings. The cool calm climate, gorges rolling tea plantation which makes the best “Ceylon tea” and the breathtaking beautiful waterfalls makes Nuwara Eliya one of the most beautiful town in the world. Overnight stay in Nuwara Eliya
+                <br /><br/> 
+                <b>Nuwara Eliya:</b><br/>
+
+                Ramboda Water Fall<br/>
+                Ambewala Farm<br/>
+                Hakgala Botanical Garden<br/>
+                Nuwara Eliya Gardens<br/>
+                Horse Ridding <br>
+                Tea Plantations <br>
+                Lake Drive <br>
+                Strawberry Gardens <br>
+                The Golf Course <br>
+                Setha Eliya Temple <br>
+                Gregory Lake <br>
+                </p>
             </td></tr>
             <tr><td>
-                <b>Day 5 KANDY / PERADENIYA / NUWARA ELIYA</b>
-                <p>After breakfast visit the royal botanical gardens of Peradeniya which is well known for its large variety of plants the garden is best known for its collection of orchids which is the largest in Asia. At P.M. leave for Nuwara Eliya the center of the hill country, en-route visit a tea plantation and witness the manufacture of the world famous Ceylon tea.
-                    Gregory Lake is one of the most attractive locations in Nuwara Eliya. Enjoy the view at Shanthipura (the city view point) and spend the evening walking in the cool climate and later on arrive at the hotel for the overnight stay.</p>
+            <h4>DAY 5</h4>
+                <b>Nuwara Eliya – Yala <br>
+                    Distance 190 Km <br>
+                    Duration 4 hrs (Approximately)</b>
+                    <p>Arrive at the hotel and check-in with welcome drink and refreshing towels. Sri Lanka’s jagged south coast consists of delightful coral-protected bays and headlands and offers a greater diversity of beaches than the west coast. Stunning tropical sandy beaches, rural fishing villages, untouched wilderness and a vibrant cultural heritage makes the southern coastal belt an ideal holiday experience for those wishing to escape the larger tourist centers.
+                        <br>
+                    Bentota and its breathtaking sandy beach pretty much transform your dreams and visions of a tropical paradise into an everyday reality. Located close to the Southern tip of the Island of Sri Lanka and only about 200 km from the Equator, this secluded crescent shaped beach is the perfect place to sit back, relax and forget about all the hustle and bustle of your other life that’s a million miles away. This small sandy tropical beach boasts some of Sri Lanka’s best and most stunning sunsets and sunrises. Stay the night in Kaluthara</p>
             </td></tr> 
             <tr><td>
-                <b>Day 6 NUWARA ELIYA / ELLA / BUDURUWAGALA / YALA</b>
-                <p>After breakfast leave for the Tissamaharama region stop at Ella to admire the magnificent view. Then visit Buduruwagala, the term Buduruwagala means the ”rock with the statue of Buddha” and this is exactly what it is. The rock is formed into the shape of a kneeling elephant. The statues date back to 10 century A.D.
-                    At P.M. get ready for a safari in the Yala National Park and enjoy the wilderness as you cruise around in a jeep. The breathtaking view of the wild elephants are undoubtedly the best known attraction at Yala, seen in small and large herds. The park is also known for herds of spotted deer which are found all over the park. Monkeys like the Pinkish Rhesus and the Grey-faced Langur live and play on the tree-tops and the ground below. The other animals like Wild buffalo & wild boar would startle you with their presence and the sight of a leopard sunning itself or drinking water at a water hole could be a memorable experience. Later on arrive at the hotel for overnight stay.</p>
+                <h4>DAY 6 & 7</h4>
+                <b>Yala – Kaluthara <br />
+                    Distance 245 Km <br />
+                    Duration 4 hrs 30 mins (Approximately)</b>
+                <p>Arrive at the hotel and check-in with welcome drink and refreshing towels. visit Yala national park by jeep. End of the safari back to hotel at Yala.</p>
+                <p>With its famous wild life safari, this has your tour continues to Yala. Safari to Yala Park begins in the morning. It will be just fine to run and jump in the jeep. The lack of other large carnivores means that the leopard is the top predator and cats and cubes are not threatened during the day or night. Leopards there are also other large animals you may see in the park such as Elephants, Crocodiles, Wild Boars, Jackals, Mongooses, and birds. The flora is typical of dry monsoon forest vegetation. February-June/July is the greatest time to visit when water tables are low. Leopard, elephant and many smaller animals are competing for the same drinking supply. Birds are in profusion – up to 130 species. The park also has a monastic settlement. Visiting the water holes and searching for food. Stay the night in Yala.</p>
+                <p>Yala National Park:
+                    <br />
+                    The Yala National Park is the most famous wildlife sanctuary in Sri Lanka and this vast reserve is home to a multitude of fascinating wildlife as well as plant life. Deer, peacocks, wild boar, bears and herds of wild elephants are just some of the creatures that live here. Yala is also known as one of the best places to spot the ever illusive Sri Lankan leopard and is also home to an amazing array of endemic birds. Explore this amazing realm in a jeep safari escorted by experienced and knowledgeable guides and trackers and see for yourself the amazing creatures that inhabit it.</p>
+                    <p><p>Arrive at the hotel and check-in with welcome drink and refreshing towels. Sri Lanka’s jagged south coast consists of delightful coral-protected bays and headlands and offers a greater diversity of beaches than the west coast. Stunning tropical sandy beaches, rural fishing villages, untouched wilderness and a vibrant cultural heritage makes the southern coastal belt an ideal holiday experience for those wishing to escape the larger tourist centers.
+                        <br />
+                    Bentota and its breathtaking sandy beach pretty much transform your dreams and visions of a tropical paradise into an everyday reality. Located close to the Southern tip of the Island of Sri Lanka and only about 200 km from the Equator, this secluded crescent shaped beach is the perfect place to sit back, relax and forget about all the hustle and bustle of your other life that’s a million miles away. This small sandy tropical beach boasts some of Sri Lanka’s best and most stunning sunsets and sunrises. Stay the night in Kaluthara</p>
+                    <p><b>Beruwella / Bentota / Ahungalla / Kaluthara Excursions:</b>
+                        <br><br>
+                        Madu Ganga (River), Boat Safari <br>
+                        Water Sports, Example <br>
+                        Windsurfing <br>
+                        Banana Ride<br> 
+                        Jet Ski<br>
+                        Water skiing.<br>
+                        Turtle farm</p></p>
             </td></tr>
             <tr><td>
-                <b>Day 7 WELIGAMA / GALLE / COLOMBO</b>
-                <p>After breakfast leave for Galle, en route view the stilt fisherman of Weligama as they fish, then visit the Old Portuguese fort, later rebuilt and extended by the Dutch. It is still well preserved. Most of the administration in Galle still takes place from the Fort . The view from the ramparts is superb.
-                    A well-known fact of the Galle Fort is it being a World Heritage site and the largest remaining fortress built in Asia by European colonists. The journey then progresses towards Colombo. At P.M. visit the fascinating city of Colombo which links the past with the present. You will visit the Fort area, the commercial center, Pettah Colombo’s bustling bazaar area, a cinnamon garden which is a large residential complex. Later on return to the hotel for an overnight stay.</p>
-            </td></tr>
-            <tr><td>
-                <b>Day 8 COLOMBO / AIRPORT</b>
-                <p>After breakfast transfer to the airport to connect to your flight for departure. Rooms till 12h00 in the afternoon.</p>
+            <h4>DAY 8</h4>
+                <b>Kaluthara -Airport <br>
+                    Distance 90 Km <br>
+                    Duration 2 hrs (Approximately)</b> <br>
+                <p>Proceeds to the Bandaranayke international airport, where you stack all your memories in your eyes & Mind, allowing this beautiful island Sri Lanka. This experience will leave you astounded. Pampered, enlightened. Moreover, animated. A country like no other! Visit Sri Lanka… Dependent on the flight departure time, you will be reassigned to the Airport.</p>
+            
             </td></tr>
         </table>
     </div>
