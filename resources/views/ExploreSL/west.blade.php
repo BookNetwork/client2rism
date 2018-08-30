@@ -7,7 +7,7 @@
         </center>
 
     <table class="table table-striped" style="margin:50px 0px 0px 0px;padding:0px 0px 100px 0px">
-        <col width="110">
+        <col width="130">
         <col width="200">
         <tr>
             <td>
@@ -40,11 +40,11 @@
         </tr>
         <tr>
             <td>
-                <img src="../images/province/west/katunayaka.jpg" height="300"    width="100%"  alt="">
+                <img src="../images/province/west/baththaramulla.jpg" height="300"    width="100%"  alt="">
             </td>
             <td>
-                <h1>Katunayaka</h1>
-                <p>Katunayake (කටුනායක in Sinhala, கட்டுநாயக்க in Tamil), is a suburb of Negombo city in Western Province, Sri Lanka. It is the site of Bandaranaike International Airport or Colombo Airport, the primary international air gateway to Sri Lanka. With the change of government in 1977 and the introduction of the open economy policy a large area was allocated to create a free trade zone (currently known as the Export Promotion Zone). This created a large number of job opportunities for the local youth and has contributed substantially towards the country's economy.</p>
+                <h1>Diyatha Uyana (baththaramulla)</h1>
+                <p>Diyatha Uyana is a located at Polduwa junction, Battaramulla near the Waters Edge Hotel. The park has been constructed on a marshy land on the banks of the Diyawanna Oya.</p>
             </td>
         </tr>
         <tr>
@@ -54,16 +54,7 @@
             <td>
                 <h1>Wadduwa</h1>
                 <p>
-Wadduwa
-වාද්දුව
-Suburb
-Wadduwa is located in Sri LankaWadduwaWadduwa
-Coordinates: 6°42′48″N 79°54′15″E
-Country	Sri Lanka
-Province	Western Province
-Time zone	Sri Lanka Standard Time Zone (UTC+5:30)
- • Summer (DST)	Summer time (UTC+6)
-Wadduwa is a town in the Western Province of, Sri Lanka.It situated in the western coast of Sri Lanka about 33 km south of Colombo.[1] It spans from 30.5 to 36.5 km area along the Galle Road, 4.5 km to the land side and 1 km to the seaside. It is also famous for its rich cultivation of coconut palms and as a major producer of toddy and vinegar. There are few historical places in the area such as ancient Buddhist temples. Wadduwa is popular for the products made from coconut fibre such as brooms,carpets etc. Wadduwa is governed by Panadura Pradeshiya Sabha.</p>
+                    Wadduwa is a town in the Western Province of, Sri Lanka.It situated in the western coast of Sri Lanka about 33 km south of Colombo.[1] It spans from 30.5 to 36.5 km area along the Galle Road, 4.5 km to the land side and 1 km to the seaside. It is also famous for its rich cultivation of coconut palms and as a major producer of toddy and vinegar. There are few historical places in the area such as ancient Buddhist temples. Wadduwa is popular for the products made from coconut fibre such as brooms,carpets etc. Wadduwa is governed by Panadura Pradeshiya Sabha.</p>
             </td>
         </tr>
     </table>

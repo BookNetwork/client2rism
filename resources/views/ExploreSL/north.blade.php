@@ -58,6 +58,24 @@
                 <p>Mannar Island (Tamil: மன்னார் தீவு; Sinhalese: මන්නාරම් දූපත) formerly spelt Manar Island, is part of Mannar District, Sri Lanka. It is linked to the main island of Sri Lanka by a causeway. It has an area of about 50 square kilometres, mainly covered with vegetation and sand. Adam's Bridge (Tamil: ஆதம் பாலம் āthām pālam), is a chain of limestone shoals, between Pamban Island, also known as Rameswaram Island, off the southeastern coast of Tamil Nadu, India, and Mannar Island, off the northwestern coast of Sri Lanka. Geological evidence suggests that this bridge is a former land connection between India and Sri Lanka.</p>
             </td>
         </tr>
+        <tr>
+            <td>
+                <img src="../images/province/north/nagadeepa.jpg" height="300"    width="100%"  alt="">
+            </td>
+            <td>
+                <h1>Nagadeepa</h1>
+                <p>Nagadeepa Purana Vihara Nagadeepa Purana Vihara (Sinhalese: නාගදීප පුරාණ විහාරය, Tamil: நயினாதீவு நாக விகாரை) is an ancient Buddhist temple situated in Jaffna district of Northern Province, Sri Lanka. It is among the country's sixteen or seventeen holiest Buddhist shrines (Solosmasthana).[1] According to contemporary history, the Gautama Buddha visited the site after five years of attaining Enlightenment to settle the dispute between two warring Naga kings, Chulodara and Mahodara.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../images/province/north/neduntheewu.jpg" height="300" width="100%"  alt="">
+            </td>
+            <td>
+                <h1>Neduntheevu (Delft Island)</h1>
+                <p>Neduntheevu or Neduntivu (Tamil: நெடுந்தீவு, Sinhalese: ඩෙල්ෆ්ට්) (also known by its Dutch name Delft) is an island in the Palk Strait, northern Sri Lanka. This island is named as Delft in the Admiralty Chart unlike the other islands, whose names are Tamil. The island's area is 50 km² and it is roughly oval-shaped. Its length is 8 km and its maximum width about 6 km.</p>
+            </td>
+        </tr>
     </table>
 
 @endsection

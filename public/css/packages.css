@@ -8,12 +8,45 @@
 
 .packageHeader{
     margin:50px 0px 50px 0px;
-    
 }
 
-.packageHeader .headr{
-    background-color: rgb(28, 93, 146);;
-    color:#FFF;
+.packageHeader .headr1{
+   background-image: url('../images/packages/crpd_1112.jpg');
+   background-size: 100% 100%;
+    /* background-color: rgb(28, 93, 146);; */
+    font-family: Sofia;
+    /* font-size: 200px; */
+    color:black;
+    height:250px
+}
+
+.packageHeader .headr2{
+    background-image: url('../images/packages/crpd_1114.jpg');
+   background-size: 100% 100%;
+   font-family: Sofia;
+   /* font-size: 2.1em; */
+    /* background-color: rgb(28, 93, 146);; */
+    color:rgb(0, 0, 0);
+    height:250px
+}
+
+.packageHeader .headr3{
+    background-image: url('../images/packages/crpd_1118.jpg');
+   background-size: 100% 100%;
+   font-family:Sofia ;
+   /* font-size: 1.2em; */
+    /* background-color: rgb(28, 93, 146);; */
+    color:balck;
+    height:250px
+}
+
+.packageHeader .headr4{
+    background-image: url('../images/packages/crpd_1117.jpg');
+   background-size: 100% 100%;
+   font-family:Sofia ;
+    /* background-color: rgb(28, 93, 146);; */
+    color:black;
+    /* font-size: 1.2em; */
     height:250px
 }
 

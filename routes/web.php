@@ -15,6 +15,9 @@ Route::get('/galleryVehicle', function () {
 Route::get('/packages', function () {
     return view('pages.packages');
 });
+Route::get('/about', function () {
+    return view('pages.about');
+});
 Route::get('/USERLogin', function () {
     return view('pages.account');
 });

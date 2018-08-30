@@ -51,6 +51,16 @@ In the nearby Peradeniya suburb, the Royal Botanic Gardens is known for its orch
             </td>
         </tr>
         <tr>
+        <tr>
+            <td>
+                <img src="../images/province/central/nuwaraeliya.jpg" height="300"    width="100%"  alt="">
+            </td>
+            <td>
+                <h1>Nuwara Eliya</h1>
+                <p>Rangala is situated in knuckles forest reservation near kotta ganga. Journey is starting with scenic tea plantations and ended on a hillside plateau. It is one of the most favorite destinations of Sri Lankan and foreign hikers. Hilltop is compatible for camping. Beyond forest is make a place for many days of wild trekking. But it's enough one or two days to reach to the first hilltop. If you are a nature lover or a hiker, few words are enough to describe the place, "It is a heaven"</p>
+            </td>
+        </tr>
+        <tr>
 
     </table>
 

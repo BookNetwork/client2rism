@@ -7,9 +7,9 @@
                     
 
                     <div class="col-md-12 packageHeader" >
-                        <div class="col-md-6 headr" >
+                        <div class="col-md-6 headr2" >
                             <center style="margin:90px 0px 0px 0px;">
-                                <h1>Package 2</h1>
+                                <h1  style="font-size:50px;background-color:rgba(255, 255, 255, 0.623);width:300px;height:100px;padding:20px">Package 2</h1>
                             </center>
                         </div>
                         <div class="col-md-6 headrBody" >
@@ -125,42 +125,42 @@
 
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><th><h3><b>Package Includes</b></h3></th></tr>
+            <tr><th><h3><b>PACKAGE INCLUDES</b></h3></th></tr>
            {{ Packinclude() }}
         </table>
     </div>
     <!--  -->
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><th><h3><b>Package Excludes</b></h3></th></tr>
+            <tr><th><h3><b>PACKAGE EXCLUDES </b></h3></th></tr>
             {{ PackExclude() }}
         </table>
     </div>
     <!--  -->
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><th><h3><b>Brief Itinerary</b></h3></th></tr>
-            <tr><td>Day 1 Upon arrival at the Bandaranaike International Airport, Colombo, Sri Lanka. Proceed to the hotel in Colombo</td></tr>
-            <tr><td>Day 2 After Breakfast leaves to Habarana</td></tr>
-            <tr><td>Day 3 After Breakfast leaves to Kandy</td></tr>
-            <tr><td>Day 4 After Breakfast leaves to Nuwara Eliya</td></tr>
-            <tr><td>Day 5 After Breakfast leaves to Yala</td></tr>
-            <tr><td>Day 6 After Breakfast leaves to Kaluthara /Bentota</td></tr> 
-            <tr><td>Day 7 Tour continues same Bentota/Beruwella/Ahungalla/ Kaluthara</td></tr> 
-            <tr><td>Day 8 After Breakfast at the Hotel proceeds to Airport for Departure</td></tr>
+            <tr><th><h3><b>BRIEF ITINERARY</b></h3></th></tr>
+            <tr><td><li type="square">Day 1 Upon arrival at the Bandaranaike International Airport, Colombo, Sri Lanka. Proceed to the hotel in Colombo</li></td></tr>
+            <tr><td><li type="square">Day 2 After Breakfast leaves to Habarana</li></td></tr>
+            <tr><td><li type="square">Day 3 After Breakfast leaves to Kandy</li></td></tr>
+            <tr><td><li type="square">Day 4 After Breakfast leaves to Nuwara Eliya</li></td></tr>
+            <tr><td><li type="square">Day 5 After Breakfast leaves to Yala</li></td></tr>
+            <tr><td><li type="square">Day 6 After Breakfast leaves to Kaluthara /Bentota</li></td></tr> 
+            <tr><td><li type="square">Day 7 Tour continues same Bentota/Beruwella/Ahungalla/ Kaluthara</li></td></tr> 
+            <tr><td><li type="square">Day 8 After Breakfast at the Hotel proceeds to Airport for Departure</li></td></tr>
         </table>
     </div>
     <!--  -->
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><th><h3><b>The following cancellation policy applies to this tour</b></h3></th></tr>
+            <tr><th><h3><b>THE FOLLOWING CANCELLATION POLICY APPLIES TO THIS TOUR</b></h3></th></tr>
             {{cancelationPolicies()}}
         </table>
     </div>
     <!--  -->
     <div class="col-md-12">
         <table class="table table-striped">
-            <tr><th><h3><b>Entrance fees during guided sightseeing:</b></h3><div class="alert alert-info">Rates are based on per person, Group; Rates may differ due to currency conversion & not Fixed Rates.</div></th></tr>
+            <tr><th><h3><b>ENTRANCE FEES DURING GUIDED SIGHTSEEING</b></h3><div class="alert alert-info">Rates are based on per person, Group; Rates may differ due to currency conversion & not Fixed Rates.</div></th></tr>
             {{fee()}}
         </table>
     </div>
@@ -169,7 +169,7 @@
     <div class="col-md-12">
         <table class="table table-striped">
             <tr><th><marquee><h3><b>HIGHLIGHTS & ACTIVITIES DAY TO DAY ITINERARY</b></h3></marquee></th></tr>
-            <tr><td><h4>DAY 1</h4><br/>
+            <tr><td><li type="square"><h4>DAY 1</h4><br/>
                     <p>Upon arriving in Sri Lanka, transfer to the hotel booked. Loosen up and relax after your flight, preparing yourself for the adventure ahead. Transport in air-conditioned vehicle to the hotel in Colombo.
                         Make it at the hotel and check-in with welcome drink and refreshing towels.
                         Colombo, the commercial capital of Sri Lanka is just 34 km from the international airport. It takes an interesting blend of the Dutch and British architecture over 600 years in utter concord with the modernistic architecture. The Dutch Colonial style of architecture is very much in evidence in the Colombo Fort and the Pettah areas.
@@ -190,8 +190,8 @@
                         <br>
                         Overnight stay in Colombo
                         </p>
-                </td></tr>
-            <tr><td>
+            </li></td></tr>
+            <tr><td><li type="square">
                 <h4>DAY 2</h4>
                 <b>Colombo – Habarana <br>
                     Distance 195 Km <br>
@@ -220,8 +220,8 @@
                         
 
                         Overnight stay in Habarana</p>
-            </td></tr>
-            <tr><td>
+            </li></td></tr>
+            <tr><td><li type="square">
                 <h4>DAY 3</h4>
                 <b>Habarana– Kandy <br> 
                     Distance 98 Km <br>
@@ -241,8 +241,8 @@
                         Kandy City Tour<br>
                         Kandy Temples could be visited if guest likes<br>
                         Shopping Gem Museum, Batik Factory, Wood Carving, (optional)</p>
-            </td></tr>
-            <tr><td>
+            </li></td></tr>
+            <tr><td><li type="square">
                 <h4>DAY 4</h4>
                 <b>Kandy- Nuwara Eliya <br>
                     Distance 78 Km <br>
@@ -263,8 +263,8 @@
                 Setha Eliya Temple <br>
                 Gregory Lake <br>
                 </p>
-            </td></tr>
-            <tr><td>
+            </li></td></tr>
+            <tr><td><li type="square">
             <h4>DAY 5</h4>
                 <b>Nuwara Eliya – Yala <br>
                     Distance 190 Km <br>
@@ -272,8 +272,8 @@
                     <p>Arrive at the hotel and check-in with welcome drink and refreshing towels. Sri Lanka’s jagged south coast consists of delightful coral-protected bays and headlands and offers a greater diversity of beaches than the west coast. Stunning tropical sandy beaches, rural fishing villages, untouched wilderness and a vibrant cultural heritage makes the southern coastal belt an ideal holiday experience for those wishing to escape the larger tourist centers.
                         <br>
                     Bentota and its breathtaking sandy beach pretty much transform your dreams and visions of a tropical paradise into an everyday reality. Located close to the Southern tip of the Island of Sri Lanka and only about 200 km from the Equator, this secluded crescent shaped beach is the perfect place to sit back, relax and forget about all the hustle and bustle of your other life that’s a million miles away. This small sandy tropical beach boasts some of Sri Lanka’s best and most stunning sunsets and sunrises. Stay the night in Kaluthara</p>
-            </td></tr> 
-            <tr><td>
+            </li></td></tr> 
+            <tr><td><li type="square">
                 <h4>DAY 6 & 7</h4>
                 <b>Yala – Kaluthara <br />
                     Distance 245 Km <br />
@@ -295,15 +295,15 @@
                         Jet Ski<br>
                         Water skiing.<br>
                         Turtle farm</p></p>
-            </td></tr>
-            <tr><td>
+            </li></td></tr>
+            <tr><td><li type="square">
             <h4>DAY 8</h4>
                 <b>Kaluthara -Airport <br>
                     Distance 90 Km <br>
                     Duration 2 hrs (Approximately)</b> <br>
                 <p>Proceeds to the Bandaranayke international airport, where you stack all your memories in your eyes & Mind, allowing this beautiful island Sri Lanka. This experience will leave you astounded. Pampered, enlightened. Moreover, animated. A country like no other! Visit Sri Lanka… Dependent on the flight departure time, you will be reassigned to the Airport.</p>
             
-            </td></tr>
+            </li></td></tr>
         </table>
     </div>
     <!--  -->

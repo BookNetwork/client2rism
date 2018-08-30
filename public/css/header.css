@@ -7,6 +7,7 @@ background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 
 background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 100%);
 background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#dbdbdb', GradientType=0 );
+
   /* background: rgba(179,220,237,1);
 background: -moz-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(167,235,127,1) 77%, rgba(167,235,127,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179,220,237,1)), color-stop(0%, rgba(188,224,238,1)), color-stop(77%, rgba(167,235,127,1)), color-stop(100%, rgba(167,235,127,1)));
@@ -15,14 +16,15 @@ background: -o-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 
 background: -ms-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(167,235,127,1) 77%, rgba(167,235,127,1) 100%);
 background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(167,235,127,1) 77%, rgba(167,235,127,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#a7eb7f', GradientType=0 ); */
-  /* background: rgba(252,252,252,1);
-  background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,252,252,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(252,252,252,1)));
-  background: -webkit-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
-  background: -o-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
-  background: -ms-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
-  background: linear-gradient(to bottom, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#fcfcfc', GradientType=0 ); */
+
+    /* background: rgba(252,252,252,1);
+    background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,252,252,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(252,252,252,1)));
+    background: -webkit-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
+    background: -o-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
+    background: -ms-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
+    background: linear-gradient(to bottom, rgba(252,252,252,1) 0%, rgba(41,184,229,1) 50%, rgba(252,252,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#fcfcfc', GradientType=0 ); */
   background-attachment: fixed;
   }
 
@@ -53,10 +55,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
   
   /* Change the background color on mouse-over */
   .header a:hover {
@@ -89,13 +87,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
     width: 100%;
     height:100px;
     background-size: 100% 100%;
- 
   }
 
   .carousel-inner > .item > img {
     height:450px;
-    
-}
+  }
 
   #google_translate_element{
     margin:0px 0px 0px 88%;
@@ -108,9 +104,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
 
   .logo{
     z-index:-1;
-    height:140px;
-    width:150px;
-
   }
  
 
@@ -133,7 +126,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
       height:auto
     }
     #google_translate_element{
-      margin-left:60%;
+      margin-left:50%;
   }
   .carousel-inner > .item > img {
     height:300px
@@ -144,8 +137,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
   }
 
   .logo{
-    margin: 0px 0px 0px 150px;
-    height:150px;
+    margin: 0px 0px 0px 0px;
+    height:40px;
     width:200px;
  
   }

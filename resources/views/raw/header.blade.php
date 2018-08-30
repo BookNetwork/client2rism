@@ -10,25 +10,23 @@
     margin-bottom:-25px 
   } */
 </style>
-<div class="" id="google_translate_element" ></div>
-  <div class="backgroundHeader">
-    <div class="header">
-      <div class="header-right" class="navbar" style="margin-top:25px">
-        <a href="/">Home</a>
-        <a href="gallery">Gallery</a>
-        <a href="packages">Packages</a>
-        <!-- <a href="#about">About</a> -->
-        <a href="contactUs">Contact Us</a>
-      </div> 
-    </div>
-    <div class="logo" style="z-index:1;margin:-100px 0px 0px 50px" style="background-color:red;">
-    <a href="/" class="logo" stlye="background-color:blue;">
-          <img src="../images/logo.jpeg"  height="140px" width="150px" alt="" style="z-index:1">
-        </a>
-    </div>
-       
+    <div class="" id="google_translate_element" ></div>
 
-</div>
+    <div class="header">
+      <div class="logo" style="margin:-10px 0px 0px 0px" >
+        <a href="/" class="logo">
+          <img src="../images/logo.jpeg"  height="90px" width="270px" alt="">
+        </a>
+      </div>
+      <div class="header-right" class="navbar" style="margin-top:50px">
+        <a href="/">Home</a>
+        <a href="/gallery">Gallery</a>
+        <a href="/packages">Tour Packages</a>
+        <a href="/about">About us</a>
+        <a href="/contactUs">Contact us</a>
+      </div> 
+    </div>  
+
 
   
 

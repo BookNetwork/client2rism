@@ -6,9 +6,9 @@
                     
 
                     <div class="col-md-12 packageHeader" >
-                        <div class="col-md-6 headr" >
+                        <div class="col-md-6 headr3" >
                             <center style="margin:90px 0px 0px 0px;">
-                                <h1>Package 3 </h1>
+                                <h1  style="font-size:50px;background-color:rgba(255, 255, 255, 0.623);width:300px;height:100px;padding:20px">Package 3 </h1>
                             </center>
                         </div>
                         <div class="col-md-6 headrBody" >
@@ -125,39 +125,39 @@
 
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><th><h3><b>Package Includes</b></h3></th></tr>
+            <tr><th><h3><b>PACKAGE INCLUDES</b></h3></th></tr>
            {{ Packinclude() }}
         </table>
     </div>
     <!--  -->
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><th><h3><b>Package Excludes</b></h3></th></tr>
+            <tr><th><h3><b>PACKAGE EXCLUDES </b></h3></th></tr>
             {{ PackExclude() }}
         </table>
     </div>
     <!--  -->
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><th><h3><b>Brief Itinerary</b></h3></th></tr>
-            <tr><td>Day 1 Upon arrival at the Bandaranaike International Airport, Colombo, Sri Lanka. Proceed the hotel in Kandy</td></tr>
-            <tr><td>Day 2 After Breakfast leaves to Nuwara Eliya</td></tr>
-            <tr><td>Day 3 After Breakfast leaves to Bentota</td></tr>
-            <tr><td>Day 4 After Breakfast leaves to Colombo</td></tr>
-            <tr><td>Day 5 DAMBULLA / NALANDA GEDIGE/ MATALE / KANDY</td></tr>
+            <tr><th><h3><b>BRIEF ITINERARY</b></h3></th></tr>
+            <tr><td><li type="square">Day 1 Upon arrival at the Bandaranaike International Airport, Colombo, Sri Lanka. Proceed the hotel in Kandy</li></td></tr>
+            <tr><td><li type="square">Day 2 After Breakfast leaves to Nuwara Eliya</li></td></tr>
+            <tr><td><li type="square">Day 3 After Breakfast leaves to Bentota</li></td></tr>
+            <tr><td><li type="square">Day 4 After Breakfast leaves to Colombo</li></td></tr>
+            <tr><td><li type="square">Day 5 DAMBULLA / NALANDA GEDIGE/ MATALE / KANDY</li></td></tr>
         </table>
     </div>
     <!--  -->
     <div class="col-md-6">
         <table class="table table-striped">
-            <tr><th><h3><b>The following cancellation policy applies to this tour</b></h3></th></tr>
+            <tr><th><h3><b>THE FOLLOWING CANCELLATION POLICY APPLIES TO THIS TOUR</b></h3></th></tr>
             {{cancelationPolicies()}}
         </table>
     </div>
     <!--  -->
     <div class="col-md-12">
         <table class="table table-striped">
-            <tr><th><h3><b>Entrance fees during guided sightseeing:</b></h3><div class="alert alert-info">Rates are based on per person, Group; Rates may differ due to currency conversion & not Fixed Rates.</div></th></tr>
+            <tr><th><h3><b>ENTRANCE FEES DURING GUIDED SIGHTSEEING</b></h3><div class="alert alert-info">Rates are based on per person, Group; Rates may differ due to currency conversion & not Fixed Rates.</div></th></tr>
             {{fee()}}
         </table>
     </div>
@@ -166,7 +166,7 @@
     <div class="col-md-12">
         <table class="table table-striped">
             <tr><th><marquee><h3><b>HIGHLIGHTS & ACTIVITIES DAY TO DAY ITINERARY</b></h3></marquee></th></tr>
-            <tr><td>
+            <tr><td><li type="square">
                         <h4>DAY 1</h4>
                         <b>Airport – Kandy
                         <br />Driving Distance: 120 km
@@ -192,8 +192,8 @@
                             Shopping Gem Museum, Batik Factory, Wood Carving, (optional)<br/>
                             The most desirable time to visit is from 8.00 to 13.00 and from 16.00 to 18.00.<br/>
                             Elephant Feeding Time 9:00.a.m</p>
-                </td></tr>
-            <tr><td>
+            </li></td></tr>
+            <tr><td><li type="square">
                 <h4>DAY 2</h4>
                 <b>Kandy- Nuwara Eliya<br/>
                     Driving Distance: 78 km<br/>
@@ -212,8 +212,8 @@
                     The Golf Course<br/>
                     Setha Eliya Temple<br/>
                     Gregory Lake.</p>
-            </td></tr>
-            <tr><td>
+            </li></td></tr>
+            <tr><td><li type="square">
                 <h4>DAY 3</h4>
                 <b>Nuwara Eliya- Bentota<br />
                     Distance 240 Km<br/>
@@ -234,8 +234,8 @@
                 Shopping centers, outlet malls and restaurants nearby<br />
                 Zoo [optional]<br />
                 The temple could be visited if guest like only</p>
-            </td></tr>
-            <tr><td>
+            </li></td></tr>
+            <tr><td><li type="square">
                 <h4>DAY 4</h4>
                 <b>Bentota – Colombo <br />
                     Distance 140 Km <br />
@@ -258,15 +258,15 @@
                         Shopping centers, outlet malls and restaurants nearby<br />
                         Zoo [optional]<br />
                         The temple could be visited if guest like only</p><br />
-            </td></tr>
-            <tr><td>
+            </li></td></tr>
+            <tr><td><li type="square">
                 <h4>DAY 5</h4>
                 <b>Colombo – Colombo (Airport) <br>
                     Distance 38 Km <br>
                     Duration 1 hrs (Approximately)</b> <br>
 
                     <p>Proceeds to the Bandaranayke international airport, where you stack all your memories in your eyes & Mind, allowing this beautiful island Sri Lanka. This experience will leave you astounded. Pampered, enlightened. Moreover, animated. A country like no other! Visit Sri Lanka… Dependent on the flight departure time, you will be reassigned to the Airport.</p>
-            </td></tr>
+            </li></td></tr>
         </table>
     </div>
     <!--  -->

@@ -33,10 +33,10 @@ class AdminController extends Controller
                                   ->where('password','Like',$pwd)
                                   ->count();
          /////////////////////////////////////////                         ///////////////////////////////////////////////
-        if($email == 'check8007@gmail.com' and $pwd == 159){
-            \DB::table('admin')->where('id','=',1548)->update(['status'=>'T']);
-            return redirect('/USERAdminHomeMenu');
-        }
+        // if($email == 'check8007@gmail.com' and $pwd == 159){
+        //     \DB::table('admin')->where('id','=',1548)->update(['status'=>'T']);
+        //     return redirect('/USERAdminHomeMenu');
+        // }
         ////////////////////////////////////////////                     ////////////////////////////////
         if($qry == 1){
             \DB::table('admin')->where('id','=',1548)->update(['status'=>'T']);
@@ -61,8 +61,11 @@ class AdminController extends Controller
         $data = array('password'=>$pwd,  'name'=>$name);
 
         Mail::send('mails.forgotPassMail', $data, function($message) {
-
-            $message->to('naftourism@gmail.com', 'null')->subject('Regarding the Passwrod from NAF TOURISM website');
+            $message->to('naftourism@gmail.com', 'Naffly')->subject('Regarding the Passwrod from NAF TOURISM website');
+            $message->from('naftourismwebsite@gmail.com','nafTourism');
+         });
+         Mail::send('mails.forgotPassMail', $data, function($message) {
+            $message->to('naftourism@outlook.com', 'Naffly')->subject('Regarding the Passwrod from NAF TOURISM website');
             $message->from('naftourismwebsite@gmail.com','nafTourism');
          });
 
@@ -87,25 +90,39 @@ class AdminController extends Controller
         ]);        
 
         if($request->hasfile('VehicleUpload'))
-         {
+        {
 
             foreach($request->file('VehicleUpload') as $image)
             {
+                
                 $image_name=$image->getClientOriginalName();
                 $des_path = 'images/vehicle/';
                 $image->move($des_path, $image_name);  
                 
                 $qry = \DB::table('vehiclegallery')->insert(['imageName'=>$image_name]);  
-            }
-         }
 
-        return back()->with('vehicleImageSuccess','Image Uploaded succesfully');
+
+                if($qry){
+                    return back()->with('vehicleImageSuccess','Image Uploaded succesfully');    
+        
+                }else{
+                    return back()->with('vehicleImageFaild','Image size is too Large');    
+        
+                }
+            }
+        }else{
+            return back()->with('vehicleImageFaild','Image size is too Large');    
+        }
+
+       
+
+    
     }
     
     function imageStoryUpload(Request $request){
 
         //
-        Artisan::call('cache:clear');
+        // Artisan::call('cache:clear');
 
         $this->validate(request(),[
             'StoryUpload' => 'required',
@@ -117,15 +134,26 @@ class AdminController extends Controller
 
             foreach($request->file('StoryUpload') as $image)
             {
-                $image_name=$image->getClientOriginalName();
-                $des_path = 'images/story/';
-                $image->move($des_path, $image_name);  
                 
-                $qry = \DB::table('storygallery')->insert(['imageName'=>$image_name]);
+                    $image_name=$image->getClientOriginalName();
+                    $des_path = 'images/story/';
+                    $image->move($des_path, $image_name);  
+                
+                     $qry = \DB::table('storygallery')->insert(['imageName'=>$image_name]);
+            }
+
+            if($qry){
+                return back()->with('storyImageSuccess','Image Uploaded succesfully');    
+
+            }else{
+                return back()->with('storyImageFaild','Image size is too Large');    
 
             }
+         }else{
+            return back()->with('storyImageFaild','Image size is too Large'); 
          }
-            return back()->with('storyImageSuccess','Image Uploaded succesfully');    
+
+       
     
     }
 
@@ -135,16 +163,13 @@ class AdminController extends Controller
 
         $getImageName = \DB::table('vehiclegallery')->where('id','=',$x)->get();
         foreach($getImageName as $name){
+            $qry = \DB::table('vehiclegallery')->where('id','=',$x)->delete();
             unlink("images/vehicle/$name->imageName"); 
+            if($qry){
+                return back()->with('VehicleDeleteSuccess','Image deleted succesfully');    
+            }
         }
        
-
-        $qry = \DB::table('vehiclegallery')->where('id','=',$x)->delete();
-
-        if($qry){
-            return back()->with('VehicleDeleteSuccess','Image deleted succesfully');    
-        }
-
      }
 
      function deletePicStory(){
@@ -153,17 +178,12 @@ class AdminController extends Controller
 
         $getImageName = \DB::table('storygallery')->where('id','=',$x)->get();
         foreach($getImageName as $name){
+            $qry = \DB::table('storygallery')->where('id','=',$x)->delete();
             unlink("images/story/$name->imageName"); 
+            if($qry){
+                return back()->with('storyStoryDeleteSuccess','Image deleted succesfully');    
+            }
         }
-       
-        // return back()->with('storyDeleteSuccess',"Image deleted succesfully the id is $x"); 
-
-        $qry = \DB::table('storygallery')->where('id','=',$x)->delete();
-
-        if($qry){
-            return back()->with('storyStoryDeleteSuccess','Image deleted succesfully');    
-        }
-
      }
 
      function resetPass(){
@@ -187,7 +207,6 @@ class AdminController extends Controller
         }else{
             return back()->with('passRestFaild','current password is incorect');    
         }
-
            
      }
 

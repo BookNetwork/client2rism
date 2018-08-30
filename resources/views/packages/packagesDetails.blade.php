@@ -53,7 +53,7 @@
         );
 
         foreach($f as $key => $val){
-            echo '<tr><td>'. $val .'</td></tr>';
+            echo '<tr><td><li type="square">'. $val .'</li></td></tr>';
         }
     }
     
@@ -68,7 +68,7 @@
     );
 
     foreach($p as $key => $val){
-        echo '<tr><td>'. $val .'</td></tr>';
+        echo '<tr><td><li type="square">'. $val .'</li></td></tr>';
     }
 }
 
@@ -96,7 +96,7 @@
         );
     
         foreach($excludes as $key => $val){
-            echo '<tr><td>'. $val .'</td></tr>';
+            echo '<tr><td><li type="square">'. $val .'</li></td></tr>';
         }
     }
 
@@ -117,7 +117,7 @@ function Packinclude(){
             );
 
     foreach($includes as $key => $val){
-        echo '<tr><td>'. $val .'</td></tr>';
+        echo '<tr><td><li type="square">'. $val .'</li></td></tr>';
     }
 }
 

@@ -52,14 +52,18 @@
 
             <div style="font-family:Microsoft;font-size:1.5em">                
                 <center>
-                    <h1>Welcome To Naf Tourism Travels & Tours</h1>    
+                    <h1>Welcome To NAF Tourism Travels & Tours</h1>    
                 </center>
             </div>
             <div class="transperant">
                 <center>
-                <h3>On Scroll Sticky Header</h3>
-                <p>The header will stick to the top when you reach its scroll position.</p>
-                <p>Scroll back up to remove the sticky effect.</p>
+                    <div class="container clo-md-8" style="background-color:none;width:1150px;margin-top:20px">
+                        <h3 style="font-family:Sofia">OUR VISION</h3>
+                        <p style="font-family:Sofia;font-size:20px">To give every tourist that travels with us the most beautiful memories of Sri Lanka and its cultural values. To strengthen our position by providing
+                            quality, creative, innovative, competitive and socially responsible services in the region.</p>
+                    </div>
+
+                    
                 </center>
             </div>
 
@@ -75,19 +79,19 @@
                     <!-- -->
                     <div class="col-md-1">
                         
-                        </div>
+                    </div>
                     <a href="/one">
                         <div class="col-md-2 imagesVehicle " style="margin-left:-30px">
                         <div class="coupon">
                             <div class="containerc">
                                 <h3>Package 01</h3>
                             </div>
-                            <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
+                            <img src="../images/packages/rsz_1116.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                             <div class="containerc " style="background-color:white">
                                 <h2><b>8 Days & 7 Nights</b></h2> 
                             </div>
-                            <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                                <p>Discover Sri Lanka in 08 Days and 07 nights! The tour dwells into the rich Sri Lankan history, fascinating culture and beautiful scenery.<br/></p>
+                            <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;height:120px">
+                                <center><p>Discover Sri Lanka in 08 Days and 07 nights! The tour dwells into the rich Sri Lankan history, fascinating culture and beautiful scenery.<br/></p></center>
                             </div>
                         </div>
                         </div>
@@ -99,12 +103,12 @@
                             <div class="containerc">
                                 <h3>Package 02</h3>
                             </div>
-                            <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
+                            <img src="../images/packages/rsz_11111.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                             <div class="containerc " style="background-color:white">
                                 <h2><b>8 Days & 7 Nights</b></h2> 
                             </div>
-                            <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                                <p>If you want to experience the best of Sri Lanka; all climate and cultural variations within 8 days, this will be the ideal package for you.</p>
+                            <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;;height:120px ">
+                                <center><p>If you want to experience the best of Sri Lanka; all climate and cultural variations within 8 days, this will be the ideal package for you.</p><center>
                             </div>
                         </div>
                         </div>
@@ -115,12 +119,12 @@
                             <div class="containerc">
                                 <h3>Package 03</h3>
                             </div>
-                            <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
+                            <img src="../images/packages/rsz_1113.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                             <div class="containerc " style="background-color:white">
                                 <h2><b>5 Days & 4 Nights</b></h2> 
                             </div>
-                            <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                                <p>Explore the finest of Sri Lanka with your friends or family and collect special memories to keep with you for the rest of your life.</p>
+                            <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px;  border-bottom-left-radius: 50px;;height:120px">
+                                <center><p>Explore the finest of Sri Lanka with your friends or family and collect special memories to keep with you for the rest of your life.</p></center>
                             </div>
                         </div>
                         </div>
@@ -131,12 +135,12 @@
                             <div class="containerc">
                                 <h3>Package 04</h3>
                             </div>
-                            <img src="../images/1.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
+                            <img src="../images/packages/rsz_1115.jpg" alt="Avatar" style="width:100%;" img-thumbnail>
                             <div class="containerc " style="background-color:white">
                                 <h2><b>9 Days & 8 Nights</b></h2> 
                             </div>
-                            <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px; ">
-                                <p>Spend time with your family to unwind from your hectic life. Our 5 days’ tour package offers you the best for the money you pay.</p>
+                            <div class="containerc" style="background-color:white;border-bottom-right-radius: 50px;  border-bottom-left-radius: 50px;;height:120px">
+                                <center><p>Spend time with your family to unwind from your hectic life. Our 5 days’ tour package offers you the best for the money you pay.</p></center>
                             </div>
                         </div>
                         </div>
@@ -214,9 +218,8 @@
           
 
             <div class="transperant" style="">
-                
 
-            <div class="bodyContentHeader" style="margin:550px 0px 50px 0px; background-color:none;font-family:Microsoft;">                
+                <div class="bodyContentHeader" style="margin:550px 0px 50px 0px; background-color:none;font-family:Microsoft;">                
                       <center>
                           <h1> Gallery</h1>    
                       </center>
@@ -226,23 +229,34 @@
                     $qry = \DB::table('storygallery')->orderBy('id','desc')->limit(8)->get();  
                 ?>
 
-     <a href="/gallery"><div class="row col-md-12" style="">
-        @foreach($qry as $val)
-            <div class="col-md-3" style="margin:0px 0px 0px 0px">
-                <img src="images/story/{{$val->imageName}}"  height="250px" width="320px">
-            </div>
-        @endforeach
-    </div>  </a>
+                <a href="/gallery"><div class="row col-md-12" style="">
+                    @foreach($qry as $val)
+                        <div class="col-md-3" style="margin:0px 0px 0px 0px">
+                            <img src="images/story/{{$val->imageName}}"  height="250px" width="320px">
+                        </div>
+                    @endforeach
+                </a>
 
             </div>
+
+        <div class="col-md-12 ">
+            <center>
+            <div class="container clo-md-8" style="background-color:none;width:1150px;margin-top:50px">
+                        <h3 style="font-family:Sofia">OUR MISSION</h3>
+                        <p style="font-family:Sofia;font-size:20px"> To become the best travel operator in the Sri Lankan tourism sector, respected and relied on by customers. We create unique and socially
+                             responsible travel experiences through providing services beyond expectations.</p>
+                    </div>
+            </center>
+        </div>
+           
 
         <div class="transperant" class="col-md-12" >
         
-            <div style="margin:150px 0px 50px 0px;background-color:rgb(118, 162, 197);padding:40px 0px 40px 40px" class="col-md-6">
-            <iframe width="560" height="315"  src="https://www.youtube.com/embed/zpZI2oGPsio" frameborder="0" allow="autoplay; encrypted-media" class="video" allowfullscreen></iframe>
+            <div style="margin:150px 0px 50px 0px;padding:0px 0px 40px 40px" class="col-md-6">
+                <iframe width="560" height="315"  src="https://www.youtube.com/embed/zpZI2oGPsio" frameborder="0" allow="autoplay; encrypted-media" class="video" allowfullscreen></iframe>
             </div>
 
-            <div style="margin:50px 0px 0px 0px;background-color:red;margin:250px 0px 50px 0px;background-color:rgb(118, 162, 197)" class="col-md-6">
+            <div style="margin:50px 0px 0px 0px;margin:210px 0px 50px 0px;" class="col-md-6">
                 <h1> <b> ABOUT SRI LANKA </b></h1>
 
                 <p style="">Sri Lanka (formerly Ceylon) is an island nation south of India in the Indian Ocean. Its diverse landscapes range from rainforest and arid plains to highlands and sandy beaches. It’s famed for its ancient Buddhist ruins, including the 5th-century citadel Sigiriya, with its palace and frescoes. The city of Anuradhapura, Sri Lanka's ancient capital, has many ruins dating back more than 2,000 years.</p>

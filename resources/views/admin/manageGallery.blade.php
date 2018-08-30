@@ -24,6 +24,11 @@
                       <strong >{{ $mess }}</strong>
                     </span>
             @endif
+            @if ($mess = Session::get('vehicleImageFaild'))
+                    <span class="alert alert-danger col-md-12">
+                      <strong >{{ $mess }}</strong>
+                    </span>
+            @endif
             <form action="/imageVehicleUpload" method="post" enctype="multipart/form-data">
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group">
@@ -44,8 +49,13 @@
     <div class="container col-md-6 ">
         <div class="well">
             <h3>Add story image</h3>
-            @if ($mess = Session::get('storyImageSuccess'))
+             @if ($mess = Session::get('storyImageSuccess'))
                     <span class="alert alert-success col-md-12">
+                      <strong >{{ $mess }}</strong>
+                    </span>
+            @endif
+            @if ($mess = Session::get('storyImageFaild'))
+                    <span class="alert alert-danger col-md-12">
                       <strong >{{ $mess }}</strong>
                     </span>
             @endif

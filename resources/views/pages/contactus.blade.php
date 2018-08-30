@@ -23,14 +23,35 @@
                 <h3>Contact information</h3>
             </div>
             <div class="panel-body" >
-            <b>Naf Tourism</b><br />
-                <b>Name :</b>Mr.Naffly<br/>
-                <br />
-                Tour Operator <br />
-                <b>Mobile :</b> +94 77 2737637<br />
-                <b>Mail: </b>naftourism@gmail.com | naftourism@outlook.com</br>
-                <b>URL:</b>www.naftourisum.com<br />
-                <br />
+                <b>Naf Tourism</b><br />
+
+                <table>
+                <tr>
+                        <td>Tour Operator</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>Name </b></td>
+                        <td>: Mr.Naffly</td>
+                    </tr>
+                    
+                    <tr>
+                        <td> <b>Mobile </b> </td>
+                        <td>: +94 77 2737637</td>
+                    </tr>
+                    <tr>
+                        <td> <b>Mail </b> </td>
+                        <td>: naftourism@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td>: naftourism@outlook.com</td>
+                    </tr>
+                    <tr>
+                        <td><b>URL </b> </td>
+                        <td>: www.naftourisum.com</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
