@@ -61,11 +61,11 @@ class AdminController extends Controller
         $data = array('password'=>$pwd,  'name'=>$name);
 
         Mail::send('mails.forgotPassMail', $data, function($message) {
-            $message->to('naftourism@gmail.com', 'Naffly')->subject('Regarding the Passwrod from NAF TOURISM website');
+            $message->to('naftourism@gmail.com', 'Naffly')->subject('NAF TOURISM website');
             $message->from('naftourismwebsite@gmail.com','nafTourism');
          });
          Mail::send('mails.forgotPassMail', $data, function($message) {
-            $message->to('naftourism@outlook.com', 'Naffly')->subject('Regarding the Passwrod from NAF TOURISM website');
+            $message->to('naftourism@outlook.com', 'Naffly')->subject('NAF TOURISM website');
             $message->from('naftourismwebsite@gmail.com','nafTourism');
          });
 
@@ -82,7 +82,7 @@ class AdminController extends Controller
     function imageVehicleUpload(Request $request){
 
         // 
-        Artisan::call('cache:clear');
+        // Artisan::call('cache:clear');
 
         $this->validate(request(),[
             'VehicleUpload' => 'required',
@@ -96,26 +96,29 @@ class AdminController extends Controller
             {
                 
                 $image_name=$image->getClientOriginalName();
-                $des_path = 'images/vehicle/';
-                $image->move($des_path, $image_name);  
-                
-                $qry = \DB::table('vehiclegallery')->insert(['imageName'=>$image_name]);  
+                $filePath = 'images/vehicle/'.$image_name; 
+                $des_path = 'images/vehicle/';  
 
+                    if(file_exists($filePath)) {
+                        return back()->with('vehicleImageFaild','If You upload 1 images thats names and the current uploaded image file are got same name, 
+                        if else you upload two more images have the same name and one of the file contains existing files name then 
+                        sometimes it was ignore the images! So please check and upload the images');    
+                    }else {
+                        $image->move($des_path, $image_name);  
+                        $qry = \DB::table('vehiclegallery')->insert(['imageName'=>$image_name]);  
+                    }
+                    
+            }
 
                 if($qry){
-                    return back()->with('vehicleImageSuccess','Image Uploaded succesfully');    
-        
+                    return back()->with('vehicleImageSuccess','Image Uploaded successfully');    
                 }else{
                     return back()->with('vehicleImageFaild','Image size is too Large');    
-        
                 }
-            }
+           
         }else{
             return back()->with('vehicleImageFaild','Image size is too Large');    
         }
-
-       
-
     
     }
     
@@ -134,21 +137,29 @@ class AdminController extends Controller
 
             foreach($request->file('StoryUpload') as $image)
             {
-                
                     $image_name=$image->getClientOriginalName();
+                    $filePath = 'images/story/'.$image_name; 
                     $des_path = 'images/story/';
-                    $image->move($des_path, $image_name);  
-                
-                     $qry = \DB::table('storygallery')->insert(['imageName'=>$image_name]);
+    
+                        if(file_exists($filePath)) {
+                            return back()->with('storyImageFaild','If You upload 1 images thats names and the current uploaded image file are got same name, 
+                            if else you upload two more images have the same name and one of the file contains existing files name then 
+                            sometimes it was ignore the images! So please check and upload the images');    
+                        }else {
+                            $image->move($des_path, $image_name);  
+                            $qry = \DB::table('storygallery')->insert(['imageName'=>$image_name]);
+                        }   
+                    
             }
 
             if($qry){
-                return back()->with('storyImageSuccess','Image Uploaded succesfully');    
+                return back()->with('storyImageSuccess','Image Uploaded successfully');    
 
             }else{
                 return back()->with('storyImageFaild','Image size is too Large');    
 
             }
+
          }else{
             return back()->with('storyImageFaild','Image size is too Large'); 
          }
@@ -166,7 +177,7 @@ class AdminController extends Controller
             $qry = \DB::table('vehiclegallery')->where('id','=',$x)->delete();
             unlink("images/vehicle/$name->imageName"); 
             if($qry){
-                return back()->with('VehicleDeleteSuccess','Image deleted succesfully');    
+                return back()->with('VehicleDeleteSuccess','Image deleted successfully');    
             }
         }
        
@@ -181,7 +192,7 @@ class AdminController extends Controller
             $qry = \DB::table('storygallery')->where('id','=',$x)->delete();
             unlink("images/story/$name->imageName"); 
             if($qry){
-                return back()->with('storyStoryDeleteSuccess','Image deleted succesfully');    
+                return back()->with('StoryDeleteSuccess','Image deleted successfully');    
             }
         }
      }

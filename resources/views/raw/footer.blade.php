@@ -17,17 +17,17 @@
     <div class="col-md-3 footerSmallBox" style="font-family:Microsoft JhengHei UI">
         <h1 style="font-family:Sofia;">Contact us</h1>
                 <br/>
-                <b>Naf Tourism Travels & Tours</b><br />
+                <b style="font-family:Microsoft JhengHei UI">Naf Tourism Travels & Tours</b><br />
                   <br/>
                   Mr.Naffly<br />
                 <b>Tour Operator</b> <br />
                 <b>Mobile : </b> +94 77 2737637<br />
                 <b>Mail : </b>naftourism@gmail.com </br> 
-                <b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>naftourism@outlook.com </br>
+                <b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>naftourism@outlook.com </br>
                 <b>URL : </b>www.naftourisum.com<br />
                 <br />
     </div> 
-    <div class="col-md-3 footerSmallBox">
+    <div class="col-md-3">
          <h1 style="font-family:Sofia;"> </h1>
     </div>
     <div class="col-md-1 social" style=" " media="">
@@ -39,7 +39,7 @@
   </div>
 </div>
 <div class="col-md-12 footer container-fluid bg-4 text-center " >
-  <p>Copyright © www.naftourism.com</p>
-  <p>Copyright © 2018 Book Royal IT Network, Inc. All rights reserved. </a></p>  
+  <p style="font-size:15px">Copyright © www.naftourism.com</p>
+  <p style="font-size:12px">Copyright © 2018 Book Royal IT Network, Inc. All rights reserved. </a></p>  
 </div>
 

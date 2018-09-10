@@ -19,7 +19,7 @@
     <?php 
         $qry = \DB::table('storygallery')->get();  
     ?>
-    @if ($mess = Session::get('storyDeleteSuccess'))
+    @if ($mess = Session::get('StoryDeleteSuccess'))
                     <span class="alert alert-success col-md-12">
                       <strong >{{ $mess }}</strong>
                     </span>
@@ -28,7 +28,10 @@
         @foreach($qry as $val)
             <div class="col col-md-3">
                     <img src="images/story/{{$val->imageName}}"  height="200px" width="250px" style="margin:20px 0px 0px 0px">
-                <a href="/deletePicStory?{{$val->id}}"><button class="btn btn-danger btn-lgs" style="width:250px">Delete </button></a>
+                    <div style="background-color:white;width:250px">
+                        {{$val->imageName}}
+                    </div>
+                    <a href="/deletePicStory?{{$val->id}}"><button class="btn btn-danger btn-lgs" style="width:250px">Delete </button></a>
             </div>
         @endforeach
     </div>  

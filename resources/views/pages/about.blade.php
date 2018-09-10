@@ -4,7 +4,7 @@
 
 
 <div class="subimage">
-    <img src="../images/116.jpg" alt="" height="300px" width="100%">
+    <img src="../images/rsz_1117N.jpg" alt="" height="300px" width="100%">
     <div class="supPictureHeader">   
         <center>
             <h1 style="font-size:60px;color:#FFF">About Us</h1>

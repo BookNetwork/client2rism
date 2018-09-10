@@ -13,9 +13,9 @@
     <div class="" id="google_translate_element" ></div>
 
     <div class="header">
-      <div class="logo" style="margin:-10px 0px 0px 0px" >
+      <div class="logo" style="margin:-10px 0px -20px 0px" >
         <a href="/" class="logo">
-          <img src="../images/logo.jpeg"  height="90px" width="270px" alt="">
+          <img src="../images/logo.jpeg" height="110px" width="270px" alt="">
         </a>
       </div>
       <div class="header-right" class="navbar" style="margin-top:50px">
@@ -26,11 +26,6 @@
         <a href="/contactUs">Contact us</a>
       </div> 
     </div>  
-
-
-  
-
-  
   
 <script type="text/javascript">
 function googleTranslateElementInit() {

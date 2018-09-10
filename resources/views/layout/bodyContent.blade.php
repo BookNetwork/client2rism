@@ -23,7 +23,7 @@
     </div>
 
     <div class="item">
-      <img src="../images/18.jpg" alt="" class="slider">
+      <img src="../images/11N.jpg" alt="" class="slider">
       <div class="carousel-caption">
        
       </div>
