@@ -40,12 +40,20 @@
                         <td>: +94 77 2737637</td>
                     </tr>
                     <tr>
+                        <td> <b>Whatsapp</b> </td>
+                        <td>: +94 77 2737637</td>
+                    </tr>
+                    <tr>
                         <td> <b>Mail </b> </td>
                         <td>: naftourism@gmail.com</td>
                     </tr>
                     <tr>
-                        <td> </td>
+                        <td> <b>Mail </b></td>
                         <td>: naftourism@outlook.com</td>
+                    </tr>
+                    <tr>
+                        <td> <b>Mail </b></td>
+                        <td>: info@naftourism.com</td>
                     </tr>
                     <tr>
                         <td><b>URL </b> </td>

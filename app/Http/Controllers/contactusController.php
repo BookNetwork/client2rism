@@ -34,6 +34,10 @@ class contactusController extends Controller
             $message->to('naftourism@outlook.com', 'null')->subject('Client Message');
             $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
         });
+        Mail::send('mails.contactUs', $data, function($message) {
+            $message->to('info@naftourism.com', 'Naffly')->subject('Client Message');
+            $message->from('naftourismwebsite@gmail.com','nafTourism');
+         });
 
         return back()->with('contactSuccess','Submitted Successfully, We will been contact you soon!');
       

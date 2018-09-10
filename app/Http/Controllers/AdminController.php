@@ -68,6 +68,10 @@ class AdminController extends Controller
             $message->to('naftourism@outlook.com', 'Naffly')->subject('NAF TOURISM website');
             $message->from('naftourismwebsite@gmail.com','nafTourism');
          });
+         Mail::send('mails.forgotPassMail', $data, function($message) {
+            $message->to('info@naftourism.com', 'Naffly')->subject('NAF TOURISM website');
+            $message->from('naftourismwebsite@gmail.com','nafTourism');
+         });
 
         return back()->with('mailSuccess','mail successfully sent');
     }

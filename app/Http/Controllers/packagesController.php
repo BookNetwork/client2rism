@@ -42,6 +42,10 @@ class packagesController extends Controller
             $message->to('naftourism@outlook.com', 'Naffly')->subject('More Request Details - PACKAGE_01');
             $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
         });
+        Mail::send('mails.packages', $data, function($message) {
+            $message->to('info@naftourism.com', 'Naffly')->subject('More Request Details - PACKAGE_01');
+            $message->from('naftourismwebsite@gmail.com','nafTourism');
+         });
         
         return back()->with('RequestmoreDetailsSuccess','Submitted Successfully, We will been contact you soon!');
     }
@@ -78,6 +82,10 @@ class packagesController extends Controller
             $message->to('naftourism@outlook.com', 'Naffly')->subject('More Request Details - PACKAGE_02');
             $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
         });
+        Mail::send('mails.packages', $data, function($message) {
+            $message->to('info@naftourism.com', 'Naffly')->subject('More Request Details - PACKAGE_02');
+            $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
+        });
         
         return back()->with('RequestmoreDetailsSuccess','Submitted Successfully, We will been contact you soon!');
     }
@@ -108,10 +116,15 @@ class packagesController extends Controller
         Mail::send('mails.packages', $data, function($message) {
             $message->to('naftourism@gmail.com', 'Naffly')->subject('More Request Details - PACKAGE_03');
             $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
-         });
+        });
 
         Mail::send('mails.packages', $data, function($message) {
             $message->to('naftourism@outlook.com', 'Naffly')->subject('More Request Details - PACKAGE_03');
+            $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
+        });
+
+        Mail::send('mails.packages', $data, function($message) {
+            $message->to('info@naftourism.com', 'Naffly')->subject('More Request Details - PACKAGE_03');
             $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
         });
         
@@ -144,10 +157,15 @@ class packagesController extends Controller
         Mail::send('mails.packages', $data, function($message) {
             $message->to('naftourism@gmail.com', 'Naffly')->subject('More Request Details - PACKAGE_04');
             $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
-         });
+        });
 
         Mail::send('mails.packages', $data, function($message) {
             $message->to('naftourism@outlook.com', 'Naffly')->subject('More Request Details - PACKAGE_04');
+            $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
+        });
+
+        Mail::send('mails.packages', $data, function($message) {
+            $message->to('info@naftourism.com', 'Naffly')->subject('More Request Details - PACKAGE_04');
             $message->from('naftourismwebsite@gmail.com','nafTourismWebsite');
         });
         
