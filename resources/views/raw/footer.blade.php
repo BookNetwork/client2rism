@@ -14,21 +14,49 @@
             <li><a href="contactUs">Contact Us</a></li>
           </ul>
     </div>  
-    <div class="col-md-3 footerSmallBox" style="font-family:Microsoft JhengHei UI">
+    <div class="col-md-4 footerSmallBox" style="font-family:Microsoft JhengHei UI">
         <h1 style="font-family:Sofia;">Contact us</h1>
                 <br/>
-                <b style="font-family:Microsoft JhengHei UI">NAF Tourism </b><br />
-                  
-                <br />
-                <b>Tour Operator</b> <br />
-                <b>Mobile &nbsp&nbsp</b>: +94 77 2737637<br />
-                <b>Mail  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>: naftourism@gmail.com </br> 
-                <b>Mail &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>: naftourism@outlook.com </br>
-                <b>Mail &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>: info@naftourism.com </br>
-                <b>URL &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>: www.naftourisum.com<br />
-                <br />
+                <b style="font-family:Microsoft JhengHei UI">NAF Tourism Travels & Tours </b><br />
+                  <br>
+                <table>
+                <col width="150">
+                  <col width="120">
+                    <tr><td></td><td></td></tr>
+                    
+                    <tr>
+                        <td ><b>Tour Operator </b></td>
+                        <td>: Mr.Naffly</td>
+                    </tr>
+                    
+                    <tr>
+                        <td> <b>Mobile </b> </td>
+                        <td>: +94 77 2737637</td>
+                    </tr>
+                    <tr>
+                        <td> <b>Whatsapp</b> </td>
+                        <td>: +94 77 2737637</td>
+                    </tr>
+                    <tr>
+                        <td> <b>E-Mail </b> </td>
+                        <td>: naftourism@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td> <b>E-Mail </b></td>
+                        <td width="200px">: naftourism@outlook.com</td>
+                    </tr>
+                    <tr>
+                        <td> <b>E-Mail </b></td>
+                        <td>: info@naftourism.com</td>
+                    </tr>
+                    <tr>
+                        <td><b>URL </b> </td>
+                        <td>: www.naftourism.com</td>
+                    </tr>
+                </table>
+             
     </div> 
-    <div class="col-md-3">
+    <div class="col-md-2">
          <h1 style="font-family:Sofia;"> </h1>
     </div>
     <div class="col-md-1 social" style=" " media="">
